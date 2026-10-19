@@ -33,6 +33,12 @@ data/
 js/
   assignment-dashboard.js
   home-progress.js
+  shared-progress.js
+  supabase-config.js
+supabase/
+  schema.sql
+  map-users.sql.example
+SUPABASE_SETUP.md
 assignments/
 reports/
 documents/
@@ -44,18 +50,22 @@ README.md
 
 Edit the member cards in the `Team Members` section of `index.html`, then commit and push the change to `main`.
 
-## Updating Task Progress
+## Interactive Shared Progress
 
-Edit the relevant entry in the correct repository data file, then commit and push the change to `main`:
+The website contains a Supabase-backed interactive checkbox system with independent presentation and report progress, per-member authorization, coordinator access, automatic percentages, and Realtime updates.
 
-- Presentation: `data/assignment-1-presentation.json`
-- Report: `data/assignment-1-report.json`
+**Cloud persistence is not active until the one-time Supabase configuration is completed.** Follow [`SUPABASE_SETUP.md`](SUPABASE_SETUP.md). Until then, task rows remain read-only and use the committed JSON files as the baseline task catalog.
 
-- Set `status` to `Not Started`, `In Progress`, or `Completed`.
-- Add an optional `deliverableUrl` to the submitted document, slide, or diagram.
-- Keep the task `id` stable so existing progress is preserved.
+After setup:
 
-Each assignment calculates its own member and overall completion percentages from committed step data. Presentation completion never changes report completion. The website does not save progress in browser storage.
+- Invited members sign in on either assignment page and update only their assigned task checkboxes.
+- Setayesh's coordinator account can update every member's tasks.
+- Anonymous visitors may view progress but cannot change it.
+- Completion is stored in Supabase and shared across browsers; it is not stored in `localStorage`.
+- Presentation and report completion remain independent.
+- A completion checkbox does not automatically mark a deliverable submitted or verified.
+
+Do not change stable task IDs after the database has been seeded. Never add a Supabase secret or service-role key to the repository; only the public publishable/anon key belongs in `js/supabase-config.js`.
 
 ## Assignment 1 File Names
 

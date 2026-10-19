@@ -1,0 +1,31 @@
+-- Run this only after inviting all five members in Supabase Authentication.
+-- Replace every example email with the exact invited email address.
+-- This file intentionally contains no real email addresses or credentials.
+
+insert into public.profiles (user_id, member_id, display_name, role)
+select id, 'setayesh-chegini', 'Setayesh Chegini', 'coordinator'
+from auth.users where lower(email) = lower('SETAYESH_EMAIL@example.com')
+on conflict (user_id) do update set member_id = excluded.member_id, display_name = excluded.display_name, role = excluded.role;
+
+insert into public.profiles (user_id, member_id, display_name, role)
+select id, 'spence-hashemi', 'Spence Hashemi', 'member'
+from auth.users where lower(email) = lower('SPENCE_EMAIL@example.com')
+on conflict (user_id) do update set member_id = excluded.member_id, display_name = excluded.display_name, role = excluded.role;
+
+insert into public.profiles (user_id, member_id, display_name, role)
+select id, 'mehdi-jafarian', 'Mehdi Jafarian', 'member'
+from auth.users where lower(email) = lower('MEHDI_EMAIL@example.com')
+on conflict (user_id) do update set member_id = excluded.member_id, display_name = excluded.display_name, role = excluded.role;
+
+insert into public.profiles (user_id, member_id, display_name, role)
+select id, 'david-odidi', 'David Odidi', 'member'
+from auth.users where lower(email) = lower('DAVID_EMAIL@example.com')
+on conflict (user_id) do update set member_id = excluded.member_id, display_name = excluded.display_name, role = excluded.role;
+
+insert into public.profiles (user_id, member_id, display_name, role)
+select id, 'dan-logvinovsky', 'Dan Logvinovsky', 'member'
+from auth.users where lower(email) = lower('DAN_EMAIL@example.com')
+on conflict (user_id) do update set member_id = excluded.member_id, display_name = excluded.display_name, role = excluded.role;
+
+-- Must return exactly five rows before enabling the website configuration.
+select user_id, member_id, display_name, role from public.profiles order by display_name;

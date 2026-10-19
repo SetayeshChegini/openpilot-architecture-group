@@ -8,9 +8,12 @@
     <title>Assignment 1 Report | Group H</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%239a1020'/%3E%3Cpath d='M19 46V18h13c9 0 15 5 15 14s-6 14-15 14H19zm9-8h4c4 0 7-2 7-6s-3-6-7-6h-4v12z' fill='white'/%3E%3C/svg%3E">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+    <script src="js/supabase-config.js" defer></script>
+    <script src="js/shared-progress.js" defer></script>
     <script src="js/assignment-dashboard.js" defer></script>
   </head>
-  <body class="assignment-page" data-progress-source="data/assignment-1-report.json">
+  <body class="assignment-page" data-assignment-id="report" data-progress-source="data/assignment-1-report.json">
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <header class="site-header">
       <nav class="nav-shell" aria-label="Primary navigation">
@@ -95,6 +98,12 @@
 
       <section class="section member-workspace" id="member-workflows" aria-labelledby="member-workflows-title">
         <div class="section-heading"><div><p class="eyebrow">Complete individual playbooks</p><h2 id="member-workflows-title">Select Your Name</h2></div><p>Only the selected member's report workflow is displayed. Each step contains the research, actions, expected output, and final handoff.</p></div>
+        <section class="tracker-auth" aria-labelledby="tracker-access-title" data-auth-panel>
+          <div class="persistence-banner" data-persistence-banner><div><p class="card-kicker">Shared task access</p><h3 id="tracker-access-title" data-persistence-title>Checking shared progress…</h3><p data-persistence-description>Loading authentication and persistence settings.</p></div><a href="https://github.com/eecs4314-group-h/openpilot-architecture-group/blob/main/SUPABASE_SETUP.md" target="_blank" rel="noopener noreferrer">Setup guide</a></div>
+          <form class="auth-form" data-auth-form hidden><label>Email<input type="email" name="email" autocomplete="username" required></label><label>Password<input type="password" name="password" autocomplete="current-password" required></label><button class="button button-primary" type="submit">Sign in</button></form>
+          <div class="auth-session" data-auth-session hidden><span>Signed in as <strong data-auth-user></strong></span><button class="button button-secondary" type="button" data-sign-out>Sign out</button></div>
+          <p class="auth-message" data-auth-message aria-live="polite"></p>
+        </section>
         <div class="member-tabs" role="tablist" aria-label="Report member workflows">
           <button type="button" role="tab" aria-selected="true" aria-controls="panel-setayesh-chegini" id="tab-setayesh-chegini" data-member-tab="setayesh-chegini" data-member-name="Setayesh Chegini">Setayesh <span data-member-progress="setayesh-chegini">0% complete</span></button>
           <button type="button" role="tab" aria-selected="false" aria-controls="panel-spence-hashemi" id="tab-spence-hashemi" data-member-tab="spence-hashemi" data-member-name="Spence Hashemi" tabindex="-1">Spence <span data-member-progress="spence-hashemi">0% complete</span></button>
@@ -179,7 +188,7 @@
           <section class="individual-tracker" aria-labelledby="dan-tracker-title"><h4 id="dan-tracker-title">Trackable Steps</h4><div class="task-list" data-task-list="dan-logvinovsky"><p class="task-loading">Loading committed progress…</p></div></section>
         </article>
 
-        <div class="tracker-guidance"><strong>How shared status works:</strong> Authorized contributors update <code>data/assignment-1-report.json</code> in the repository, set each step to <code>Not Started</code>, <code>In Progress</code>, or <code>Completed</code>, optionally add a deliverable URL, and commit the change. Presentation status remains independent in its own JSON file.</div>
+        <div class="tracker-guidance"><strong>How shared status works:</strong> After the one-time Supabase setup, invited members sign in and click their own task rows or checkboxes. Completion is saved to the shared database and updated live for other visitors. Setayesh has coordinator access to all tasks. Report progress remains independent from presentation progress, and completion does not imply submission or approval.</div>
       </section>
 
       <section class="section section-tinted" id="dependencies" aria-labelledby="dependencies-title">
@@ -210,7 +219,7 @@
         <div class="submission-checklist" data-submission-checklist><p class="task-loading">Loading report submission checklist…</p></div>
       </section>
 
-      <section class="section section-dark" aria-labelledby="overall-progress-title"><div class="overall-assignment-progress"><div><p class="eyebrow">Repository-backed progress</p><h2 id="overall-progress-title">Report Completion</h2><p><span data-overall-completed>0</span> of <span data-overall-total>31</span> member steps completed.</p></div><div class="overall-progress-number"><strong data-overall-progress>0%</strong><div class="overall-progress-bar" role="progressbar" aria-label="Overall report completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span data-overall-progress-bar></span></div></div></div></section>
+      <section class="section section-dark" aria-labelledby="overall-progress-title"><div class="overall-assignment-progress"><div><p class="eyebrow">Shared assignment progress</p><h2 id="overall-progress-title">Report Completion</h2><p><span data-overall-completed>0</span> of <span data-overall-total>31</span> member steps completed.</p></div><div class="overall-progress-number"><strong data-overall-progress>0%</strong><span class="overall-state" data-overall-state>Not Started</span><div class="overall-progress-bar" role="progressbar" aria-label="Overall report completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span data-overall-progress-bar></span></div></div></div></section>
     </main>
 
     <footer><p><strong>Group H</strong></p><p><a href="index.html">Home</a> · <a href="assignment-1-presentation.html">Assignment 1 Presentation</a> · York University EECS 4314</p></footer>
