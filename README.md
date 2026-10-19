@@ -2,7 +2,7 @@
 
 A static GitHub Pages website for York University Group H's software architecture and design analysis of OpenPilot.
 
-The Team Responsibilities, Report Requirements, and Task Progress Tracker sections document the group's Assignment 1 plan.
+The Assignment 1 dashboard includes the team responsibility overview, an overall project pipeline, expandable member workflows, handoffs, report requirements, shared resources, submission rules, and a repository-backed detailed progress tracker.
 
 ## Team Members
 
@@ -37,7 +37,23 @@ Edit the member cards in the `Team Members` section of `index.html`, then commit
 
 ## Updating Task Progress
 
-Edit each member's `status` in `data/task-status.json`, then commit and push the change to `main`. Supported values are `Not Started`, `In Progress`, and `Completed`. The website reads this file whenever the page loads, so the committed status is visible to every visitor.
+Edit the relevant entry in each member's `items` array in `data/task-status.json`, then commit and push the change to `main`.
+
+- Set `status` to `Not Started`, `In Progress`, or `Completed`.
+- Add an optional `link` to the submitted document or diagram.
+- Keep the task `id` stable so existing progress is preserved.
+
+The website calculates each member's completion percentage and the overall percentage from the committed step data. It does not save progress in browser storage.
+
+## Assignment 1 File Names
+
+Use lowercase kebab-case names following this pattern:
+
+```text
+lastname-assignment1-artifact-v01.ext
+```
+
+Example: `hashemi-assignment1-architecture-diagram-v01.svg`.
 
 ## GitHub Pages
 
