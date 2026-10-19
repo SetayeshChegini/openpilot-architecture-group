@@ -2,6 +2,8 @@
 
 A static GitHub Pages website for York University Group H's software architecture and design analysis of OpenPilot.
 
+The Team Responsibilities, Report Requirements, and Task Progress Tracker sections document the group's Assignment 1 plan.
+
 ## Team Members
 
 Student numbers are maintained directly in `index.html` as a simple static roster.

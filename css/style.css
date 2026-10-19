@@ -593,6 +593,19 @@ h3 {
   color: var(--muted);
 }
 
+.assignment-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--york-red);
+  font-weight: 750;
+  text-underline-offset: 0.2em;
+}
+
+.assignment-link:hover,
+.assignment-link:focus-visible {
+  color: var(--york-red-dark);
+}
+
 .section-dark {
   color: white;
   background: var(--dark);
