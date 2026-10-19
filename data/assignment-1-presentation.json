@@ -1,0 +1,91 @@
+{
+  "assignment": "Assignment 1 – Presentation",
+  "deadline": "2026-10-22T17:30:00-04:00",
+  "presentationTime": "2026-10-22T18:54:00-04:00",
+  "lastUpdated": "2026-10-19",
+  "members": [
+    {
+      "id": "setayesh-chegini",
+      "name": "Setayesh Chegini",
+      "items": [
+        { "id": "presentation-setayesh-01", "description": "Research OpenPilot's purpose, developer, ADAS context, problems, features, vehicle interaction, architecture value, and supervision limits.", "expectedOutput": "Verified research notes summarizing OpenPilot's purpose, functionality, and limitations.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-setayesh-02", "description": "Create slide 1 with the title, course, Group H, all five names, an OpenPilot introduction, and the presentation purpose.", "expectedOutput": "Completed introduction slide.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-setayesh-03", "description": "Create slide 2 explaining lane centering, adaptive cruise control, lane change assist, driver monitoring, and vehicle compatibility.", "expectedOutput": "Completed functionality slide with a simple feature visual.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-setayesh-04", "description": "Prepare clear speaking notes for slides 1–2 covering what OpenPilot does, why it is interesting, and what the presentation explains.", "expectedOutput": "Presentation-ready notes for slides 1–2.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-setayesh-05", "description": "Collect and coordinate all slides and diagrams; check titles, terminology, readability, duplication, order, and references.", "expectedOutput": "A reviewed and consistently organized combined slide deck.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-setayesh-06", "description": "Combine all slides, add references, export one PDF, verify it, and coordinate final submission.", "expectedOutput": "Verified final presentation PDF and confirmed submission.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-setayesh-07", "description": "Rehearse the introduction and member transitions; confirm that every member knows when to speak.", "expectedOutput": "Rehearsed opening, transitions, and speaking order.", "status": "Not Started", "deliverableUrl": "" }
+      ]
+    },
+    {
+      "id": "spence-hashemi",
+      "name": "Spence Hashemi",
+      "items": [
+        { "id": "presentation-spence-01", "description": "Research the current OpenPilot architecture using the official repository, documentation, and process configuration.", "expectedOutput": "Source-backed architecture research notes.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-spence-02", "description": "Identify major components and verify what they receive, produce, communicate with, and why they are separate.", "expectedOutput": "Verified component inventory covering inputs, outputs, interactions, and responsibilities.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-spence-03", "description": "Analyze evidence for modular, message-based, publish-subscribe, pipeline, and layered architectural styles.", "expectedOutput": "Evidence-based architecture-style notes.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-spence-04", "description": "Create slide 3 with a simple overall architecture diagram of principal subsystems and interactions.", "expectedOutput": "Completed architecture slide and readable diagram.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-spence-05", "description": "Create slide 4 explaining subsystem responsibilities, interactions, organization, communication, and dependencies.", "expectedOutput": "Completed components-and-relationships slide.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-spence-06", "description": "Prepare speaking notes that explain the architecture from system inputs to vehicle outputs.", "expectedOutput": "Presentation-ready notes for slides 3–4.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-spence-07", "description": "Submit slides 3–4, the architecture diagram, references, and speaker notes for integration.", "expectedOutput": "Complete presentation package ready for team review.", "status": "Not Started", "deliverableUrl": "" }
+      ]
+    },
+    {
+      "id": "mehdi-jafarian",
+      "name": "Mehdi Jafarian",
+      "items": [
+        { "id": "presentation-mehdi-01", "description": "Research how sensor and perception information is used to produce driving-related control decisions.", "expectedOutput": "Verified driving-pipeline research notes.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-mehdi-02", "description": "Trace an adaptive cruise control scenario from road observations through planning, controls, vehicle commands, and feedback.", "expectedOutput": "Documented scenario with relevant components and messages.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-mehdi-03", "description": "Explain concurrent processes, message movement, the value of concurrency, and timing considerations.", "expectedOutput": "Concise concurrency analysis for the presentation.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-mehdi-04", "description": "Create slide 5 with a clear data-flow diagram and distinguish data flow from control flow.", "expectedOutput": "Completed data-flow slide and diagram.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-mehdi-05", "description": "Create slide 6 with an adaptive-cruise-control sequence diagram using supported publish-subscribe interactions.", "expectedOutput": "Completed sequence-diagram slide.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-mehdi-06", "description": "Prepare speaking notes explaining the sequence from initial observation to control response.", "expectedOutput": "Presentation-ready notes for slides 5–6.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-mehdi-07", "description": "Submit slides, data-flow explanation, sequence diagram, concurrency explanation, references, and notes.", "expectedOutput": "Complete presentation package ready for team review.", "status": "Not Started", "deliverableUrl": "" }
+      ]
+    },
+    {
+      "id": "david-odidi",
+      "name": "David Odidi",
+      "items": [
+        { "id": "presentation-david-01", "description": "Research OpenPilot's driver, vehicle, camera, sensor, display, alert, and driver-monitoring interfaces.", "expectedOutput": "Verified external-interface research notes.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-david-02", "description": "Research lane centering, adaptive cruise control, and driver monitoring, including the subsystems each use case depends on.", "expectedOutput": "Three concise, source-backed use-case analyses.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-david-03", "description": "Create slide 7 explaining external inputs, outputs, actors, devices, and communication boundaries.", "expectedOutput": "Completed external-interfaces slide with a diagram or compact table.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-david-04", "description": "Create slide 8 with a verified driver-distraction sequence or state diagram from camera input through continued-inattention response.", "expectedOutput": "Completed driver-monitoring sequence or state-diagram slide.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-david-05", "description": "Prepare speaking notes explaining how the selected use case demonstrates component interaction.", "expectedOutput": "Presentation-ready notes for slides 7–8.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-david-06", "description": "Submit slides, interface explanation, driver-monitoring diagram, references, and notes.", "expectedOutput": "Complete presentation package ready for team review.", "status": "Not Started", "deliverableUrl": "" }
+      ]
+    },
+    {
+      "id": "dan-logvinovsky",
+      "name": "Dan Logvinovsky",
+      "items": [
+        { "id": "presentation-dan-01", "description": "Review the major components and diagrams prepared by Spence, Mehdi, and David.", "expectedOutput": "Consolidated architecture-review notes.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-dan-02", "description": "Investigate process separation, modularity, messaging, performance, reliability, compatibility, extensibility, and maintainability trade-offs.", "expectedOutput": "Source-backed architectural decision and trade-off analysis.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-dan-03", "description": "Create slide 9 with a decision, benefit, and challenge table supported by official resources.", "expectedOutput": "Completed design-trade-offs slide.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-dan-04", "description": "Create slide 10 explaining the main findings, strengths, limitations, and lessons learned.", "expectedOutput": "Completed conclusions slide.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-dan-05", "description": "Prepare speaking notes connecting the conclusions to the preceding architecture slides.", "expectedOutput": "Presentation-ready notes for slides 9–10.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-dan-06", "description": "Submit slides, trade-off analysis, conclusions, references, and notes.", "expectedOutput": "Complete presentation package ready for team review.", "status": "Not Started", "deliverableUrl": "" }
+      ]
+    }
+  ],
+  "checkpoints": [
+    { "id": "presentation-checkpoint-01", "label": "Research complete", "status": "Not Started" },
+    { "id": "presentation-checkpoint-02", "label": "Architecture agreed", "status": "Not Started" },
+    { "id": "presentation-checkpoint-03", "label": "Individual contributions ready", "status": "Not Started" },
+    { "id": "presentation-checkpoint-04", "label": "Peer review complete", "status": "Not Started" },
+    { "id": "presentation-checkpoint-05", "label": "Final integration complete", "status": "Not Started" },
+    { "id": "presentation-checkpoint-06", "label": "Submission complete", "status": "Not Started" }
+  ],
+  "submissionChecklist": [
+    { "id": "presentation-submit-01", "label": "All members' slides collected", "status": "Not Started" },
+    { "id": "presentation-submit-02", "label": "Architecture diagram included", "status": "Not Started" },
+    { "id": "presentation-submit-03", "label": "Sequence diagrams included where assigned", "status": "Not Started" },
+    { "id": "presentation-submit-04", "label": "Slide content verified", "status": "Not Started" },
+    { "id": "presentation-submit-05", "label": "Speaking notes prepared", "status": "Not Started" },
+    { "id": "presentation-submit-06", "label": "Presentation rehearsed", "status": "Not Started" },
+    { "id": "presentation-submit-07", "label": "References included", "status": "Not Started" },
+    { "id": "presentation-submit-08", "label": "PDF exported", "status": "Not Started" },
+    { "id": "presentation-submit-09", "label": "PDF verified", "status": "Not Started" },
+    { "id": "presentation-submit-10", "label": "Submission completed before the deadline", "status": "Not Started" }
+  ]
+}

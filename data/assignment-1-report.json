@@ -1,0 +1,97 @@
+{
+  "assignment": "Assignment 1 – Report",
+  "deadline": "2026-10-25T23:59:00-04:00",
+  "lastUpdated": "2026-10-19",
+  "members": [
+    {
+      "id": "setayesh-chegini",
+      "name": "Setayesh Chegini",
+      "items": [
+        { "id": "report-setayesh-01", "description": "Read the full requirements and Appendix A; identify every mandatory section, diagram, and formatting rule; create the team outline.", "expectedOutput": "Report outline and requirements checklist.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-setayesh-02", "description": "Research OpenPilot's purpose, problems, features, hardware and vehicle interfaces, limitations, and autonomy boundary.", "expectedOutput": "Research notes covering functionality and limitations.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-setayesh-03", "description": "Write the introduction covering description, motivation, functionality, objectives, scope, and report organization.", "expectedOutput": "Approximately 1–1.5 pages of introduction.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-setayesh-04", "description": "After receiving the other sections, write the abstract covering purpose, subsystems, interactions, findings, and conclusions.", "expectedOutput": "Approximately two-thirds of a page.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-setayesh-05", "description": "Integrate all sections, diagrams, and references; review completeness, terminology, labels, citations, duplication, focus, and page count.", "expectedOutput": "One coherent, reviewed 10–15 page report.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-setayesh-06", "description": "Create and verify the final PDF, publish it on the Group H site, test its links, and complete submission.", "expectedOutput": "Verified publication link and submitted report.", "status": "Not Started", "deliverableUrl": "" }
+      ]
+    },
+    {
+      "id": "spence-hashemi",
+      "name": "Spence Hashemi",
+      "items": [
+        { "id": "report-spence-01", "description": "Study how OpenPilot organizes functionality into current processes and modules.", "expectedOutput": "Source-backed architecture notes and process inventory.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-spence-02", "description": "Identify major subsystems and document each purpose, inputs, outputs, interactions, dependencies, and reason for separation.", "expectedOutput": "Subsystem inventory table with responsibilities, inputs, outputs, dependencies, and references.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-spence-03", "description": "Analyze evidence for modular, message-based, publish-subscribe, pipeline, and layered architectural styles.", "expectedOutput": "Evidence-based architectural-style analysis.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-spence-04", "description": "Create a labeled overall architecture diagram of the major subsystems and meaningful relationships.", "expectedOutput": "Architecture diagram in SVG or PNG format.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-spence-05", "description": "Create a dependency diagram with clear directions and a legend; keep dependencies distinct from data flow.", "expectedOutput": "Dependency diagram in SVG or PNG format with legend.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-spence-06", "description": "Write the section explaining subsystems, responsibilities, interactions, styles, dependencies, strengths, and limitations.", "expectedOutput": "Referenced 2–3 page section plus both diagrams.", "status": "Not Started", "deliverableUrl": "" }
+      ]
+    },
+    {
+      "id": "mehdi-jafarian",
+      "name": "Mehdi Jafarian",
+      "items": [
+        { "id": "report-mehdi-01", "description": "Study OpenPilot communication mechanisms and messages using current process, controls, planning, and process-replay sources.", "expectedOutput": "Source-backed notes on processes, messages, publishers, and subscribers.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-mehdi-02", "description": "Trace an adaptive cruise control scenario through observations, perception, planning, controls, vehicle commands, and feedback.", "expectedOutput": "Documented end-to-end data flow using actual components and messages.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-mehdi-03", "description": "Explain startup, process activation, engagement, command communication, disengagement, and unavailable-information behavior.", "expectedOutput": "Evidence-based control-flow analysis.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-mehdi-04", "description": "Analyze concurrent processes, overlapping activities, message coordination, timing value, and conceptual handling of delayed or invalid inputs.", "expectedOutput": "Concurrency analysis.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-mehdi-05", "description": "Create sequence diagram 1 for adaptive cruise control responding to a slower vehicle using verified components and communication relationships.", "expectedOutput": "Sequence diagram in SVG or PNG format.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-mehdi-06", "description": "Write the section explaining data flow, control flow, concurrency, the sequence diagram, and architectural implications.", "expectedOutput": "Referenced 2–3 page analysis and sequence diagram.", "status": "Not Started", "deliverableUrl": "" }
+      ]
+    },
+    {
+      "id": "david-odidi",
+      "name": "David Odidi",
+      "items": [
+        { "id": "report-david-01", "description": "Study driver, vehicle, camera, sensor, communication-network, alert, and display interfaces.", "expectedOutput": "Verified list of system-boundary interactions.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-david-02", "description": "For each external interface, document the actor, incoming and outgoing information, responsible component, and use of the information.", "expectedOutput": "External-interface table.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-david-03", "description": "Analyze lane centering, adaptive cruise control, and driver monitoring with actor, preconditions, trigger, main flow, alternatives, result, and subsystems.", "expectedOutput": "Three complete written use-case descriptions.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-david-04", "description": "Create sequence or state diagram 2 for a distracted driver, using verified monitoring, self-driving, alert, and UI responsibilities and messages.", "expectedOutput": "Driver-monitoring sequence or state diagram.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-david-05", "description": "Write the section explaining external interfaces, all three use cases, and the driver-monitoring diagram.", "expectedOutput": "Referenced 2–3 page section, interface table, use cases, and diagram.", "status": "Not Started", "deliverableUrl": "" }
+      ]
+    },
+    {
+      "id": "dan-logvinovsky",
+      "name": "Dan Logvinovsky",
+      "items": [
+        { "id": "report-dan-01", "description": "Review the architecture, flow, and interface work from Spence, Mehdi, and David; identify important design decisions.", "expectedOutput": "Consolidated architecture-review notes.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-dan-02", "description": "Analyze process separation, messaging, performance, reliability, maintainability, extensibility, safety boundaries, and multi-vehicle support.", "expectedOutput": "Architectural trade-off analysis with benefits, challenges, and implications.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-dan-03", "description": "Explain developer responsibility areas and the coordination needed across shared interfaces without inventing OpenPilot's team structure.", "expectedOutput": "Developer-responsibility discussion grounded in architecture.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-dan-04", "description": "Verify and document modelV2, carState, carControl, longitudinalPlan, driverMonitoringState, selfdriveState, controlsState, radarState, CAN, and panda.", "expectedOutput": "Data dictionary with Term, Type or Category, Meaning, and Used By columns.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-dan-05", "description": "Explain process names, names ending in d, module names, message names, data-structure names, and important abbreviations.", "expectedOutput": "Concise naming-convention guide.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-dan-06", "description": "Use process-replay and safety sources to explain how testing and safety mechanisms support the architecture.", "expectedOutput": "Short testing-and-reliability analysis.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-dan-07", "description": "Write lessons learned and conclusions covering strengths, limitations, research challenges, improvements, and future directions.", "expectedOutput": "Lessons-learned and conclusions section.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-dan-08", "description": "Collect, deduplicate, verify, and consistently format references from every member.", "expectedOutput": "Consolidated reference list.", "status": "Not Started", "deliverableUrl": "" }
+      ]
+    }
+  ],
+  "checkpoints": [
+    { "id": "report-checkpoint-01", "label": "Research complete", "status": "Not Started" },
+    { "id": "report-checkpoint-02", "label": "Architecture agreed", "status": "Not Started" },
+    { "id": "report-checkpoint-03", "label": "Individual contributions ready", "status": "Not Started" },
+    { "id": "report-checkpoint-04", "label": "Peer review complete", "status": "Not Started" },
+    { "id": "report-checkpoint-05", "label": "Final integration complete", "status": "Not Started" },
+    { "id": "report-checkpoint-06", "label": "Submission complete", "status": "Not Started" }
+  ],
+  "submissionChecklist": [
+    { "id": "report-submit-01", "label": "All report sections completed", "status": "Not Started" },
+    { "id": "report-submit-02", "label": "Abstract and introduction completed", "status": "Not Started" },
+    { "id": "report-submit-03", "label": "Architecture documented", "status": "Not Started" },
+    { "id": "report-submit-04", "label": "Data and control flow explained", "status": "Not Started" },
+    { "id": "report-submit-05", "label": "Concurrency discussed", "status": "Not Started" },
+    { "id": "report-submit-06", "label": "Developer responsibilities explained", "status": "Not Started" },
+    { "id": "report-submit-07", "label": "Dependency diagram included", "status": "Not Started" },
+    { "id": "report-submit-08", "label": "At least two sequence or state diagrams included", "status": "Not Started" },
+    { "id": "report-submit-09", "label": "External interfaces documented", "status": "Not Started" },
+    { "id": "report-submit-10", "label": "Use cases included", "status": "Not Started" },
+    { "id": "report-submit-11", "label": "Data dictionary completed", "status": "Not Started" },
+    { "id": "report-submit-12", "label": "Naming conventions documented", "status": "Not Started" },
+    { "id": "report-submit-13", "label": "Lessons learned and conclusions included", "status": "Not Started" },
+    { "id": "report-submit-14", "label": "References verified", "status": "Not Started" },
+    { "id": "report-submit-15", "label": "All diagrams labeled", "status": "Not Started" },
+    { "id": "report-submit-16", "label": "Report formatted to 10–15 pages, single-spaced, 12-point font", "status": "Not Started" },
+    { "id": "report-submit-17", "label": "PDF exported", "status": "Not Started" },
+    { "id": "report-submit-18", "label": "Report published online", "status": "Not Started" },
+    { "id": "report-submit-19", "label": "Submission completed before the deadline", "status": "Not Started" }
+  ]
+}

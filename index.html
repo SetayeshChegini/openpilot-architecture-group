@@ -3,27 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="York University group project studying the software architecture and design of OpenPilot.">
+    <meta name="description" content="Group H's York University OpenPilot software architecture and design project.">
     <meta name="theme-color" content="#9a1020">
     <title>Group H | OpenPilot Architecture Project</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%239a1020'/%3E%3Cpath d='M19 46V18h13c9 0 15 5 15 14s-6 14-15 14H19zm9-8h4c4 0 7-2 7-6s-3-6-7-6h-4v12z' fill='white'/%3E%3C/svg%3E">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/task-progress.js" defer></script>
+    <script src="js/home-progress.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
 
     <header class="site-header">
       <nav class="nav-shell" aria-label="Primary navigation">
-        <a class="brand" href="#home" aria-label="Group H home">
-          <span class="brand-mark" aria-hidden="true">OP</span>
-          <span>Group H</span>
-        </a>
+        <a class="brand" href="#home" aria-label="Group H home"><span class="brand-mark" aria-hidden="true">OP</span><span>Group H</span></a>
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#team">Team</a></li>
-          <li><a href="#responsibilities">Assignment 1</a></li>
-          <li><a href="#assignments">Assignments</a></li>
+          <li><a href="#assignments">Assignment 1</a></li>
           <li><a href="#architecture">Architecture Report</a></li>
           <li><a href="#resources">Resources</a></li>
           <li><a href="#discussions">Discussions</a></li>
@@ -35,43 +31,32 @@
     <main id="main-content">
       <section class="hero" id="home" aria-labelledby="page-title">
         <div class="hero-content">
-          <p class="eyebrow">York University · Software Architecture</p>
+          <p class="eyebrow">York University · EECS 4314</p>
           <h1 id="page-title">Group H</h1>
           <p class="hero-subtitle">OpenPilot Architecture Group</p>
           <p class="hero-focus">Software Architecture &amp; Design Analysis of OpenPilot</p>
-          <p class="hero-description">This website contains our group's software architecture and design analysis of OpenPilot, an open-source advanced driver assistance system developed by comma.ai. Throughout the term, this website will be updated with assignment summaries, architecture reports, references, discussions, and other project resources.</p>
+          <p class="hero-description">This website organizes Group H's conceptual software architecture analysis of OpenPilot. It provides separate Assignment 1 workspaces for the class presentation and the written report, along with the team roster, research resources, and future project publications.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#team">View the team</a>
+            <a class="button button-primary" href="#assignments">Open Assignment 1</a>
+            <a class="button button-secondary" href="#team">View the team</a>
           </div>
         </div>
 
         <aside class="milestone-card" aria-label="Current project milestone">
           <p class="card-kicker">Current milestone</p>
           <h2>Assignment 1</h2>
-          <p>OpenPilot Architecture Analysis</p>
+          <p>Presentation + Architecture Report</p>
           <dl class="milestone-details">
-            <div>
-              <dt>Focus</dt>
-              <dd>Architecture report</dd>
-            </div>
-            <div>
-              <dt>Due</dt>
-              <dd><time datetime="2026-10-22T17:30:00-04:00">Thursday, 22 October 2026<br>at 5:30 PM</time></dd>
-            </div>
-            <div>
-              <dt>Status</dt>
-              <dd><span class="status-badge status-in-progress">In Progress</span></dd>
-            </div>
+            <div><dt>Next due</dt><dd><time datetime="2026-10-22T17:30:00-04:00">Presentation<br>October 22 at 5:30 PM</time></dd></div>
+            <div><dt>Report due</dt><dd><time datetime="2026-10-25T23:59:00-04:00">October 25, 2026<br>at 11:59 PM</time></dd></div>
+            <div><dt>Status</dt><dd><span class="status-badge status-in-progress">In Progress</span></dd></div>
           </dl>
         </aside>
       </section>
 
       <section class="section section-tinted" id="team" aria-labelledby="team-title">
         <div class="section-heading">
-          <div>
-            <p class="eyebrow">Our group</p>
-            <h2 id="team-title">Team Members</h2>
-          </div>
+          <div><p class="eyebrow">Our group</p><h2 id="team-title">Team Members</h2></div>
           <p>Group H roster for the OpenPilot architecture project.</p>
         </div>
         <div class="card-grid team-grid" id="team-members">
@@ -83,484 +68,70 @@
         </div>
       </section>
 
-      <section class="section" id="responsibilities" aria-labelledby="responsibilities-title">
-        <div class="section-heading responsibilities-heading">
-          <div>
-            <p class="eyebrow">Assignment 1</p>
-            <h2 id="responsibilities-title">Assignment 1: Team Responsibilities &amp; Task Distribution</h2>
-          </div>
-          <p>This section contains Group H's assigned tasks and responsibilities for Assignment 1, with clear owners, deliverables, and expected report contributions.</p>
-        </div>
-
-        <div class="table-shell" role="region" aria-label="Assignment 1 team responsibility assignments" tabindex="0">
-          <table class="project-table responsibility-table">
-            <caption class="visually-hidden">Assignment 1 team responsibilities, required deliverables, and expected report pages</caption>
-            <thead>
-              <tr>
-                <th scope="col">Team Member</th>
-                <th scope="col">Responsibility</th>
-                <th scope="col">Required Deliverables</th>
-                <th scope="col">Expected Pages</th>
-                <th scope="col">Detailed Guide</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td data-label="Team Member"><strong>Setayesh Chegini</strong></td>
-                <td data-label="Responsibility">Project Coordinator &amp; Introduction</td>
-                <td data-label="Required Deliverables">Title, authors, abstract, introduction, OpenPilot functionality overview, final report integration, formatting, and website publication</td>
-                <td data-label="Expected Pages">2 pages + integration</td>
-                <td data-label="Detailed Guide"><a class="table-action" href="#workflow-setayesh" data-open-workflow="setayesh-chegini">View Detailed Tasks</a></td>
-              </tr>
-              <tr>
-                <td data-label="Team Member"><strong>Spence Hashemi</strong></td>
-                <td data-label="Responsibility">System Architecture &amp; Components</td>
-                <td data-label="Required Deliverables">Major subsystems, architecture style, component interactions, overall architecture diagram, and dependency diagram</td>
-                <td data-label="Expected Pages">2–3 pages</td>
-                <td data-label="Detailed Guide"><a class="table-action" href="#workflow-spence" data-open-workflow="spence-hashemi">View Detailed Tasks</a></td>
-              </tr>
-              <tr>
-                <td data-label="Team Member"><strong>Mehdi Jafarian</strong></td>
-                <td data-label="Responsibility">Control Flow, Data Flow &amp; Concurrency</td>
-                <td data-label="Required Deliverables">Explain interactions between components, system operation, data flow, communication, concurrency, and create sequence diagram #1</td>
-                <td data-label="Expected Pages">2–3 pages</td>
-                <td data-label="Detailed Guide"><a class="table-action" href="#workflow-mehdi" data-open-workflow="mehdi-jafarian">View Detailed Tasks</a></td>
-              </tr>
-              <tr>
-                <td data-label="Team Member"><strong>David Odidi</strong></td>
-                <td data-label="Responsibility">External Interfaces &amp; Use Cases</td>
-                <td data-label="Required Deliverables">Explain user and vehicle interfaces, driver monitoring, lane centering, adaptive cruise control use cases, and create sequence diagram #2</td>
-                <td data-label="Expected Pages">2–3 pages</td>
-                <td data-label="Detailed Guide"><a class="table-action" href="#workflow-david" data-open-workflow="david-odidi">View Detailed Tasks</a></td>
-              </tr>
-              <tr>
-                <td data-label="Team Member"><strong>Dan Logvinovsky</strong></td>
-                <td data-label="Responsibility">Design Analysis &amp; Developer Responsibilities</td>
-                <td data-label="Required Deliverables">Developer responsibilities, architectural decisions and trade-offs, data dictionary, naming conventions, lessons learned, conclusions, and references</td>
-                <td data-label="Expected Pages">2–3 pages</td>
-                <td data-label="Detailed Guide"><a class="table-action" href="#workflow-dan" data-open-workflow="dan-logvinovsky">View Detailed Tasks</a></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <section class="dashboard-block pipeline-panel" aria-labelledby="pipeline-title">
-          <div class="dashboard-heading">
-            <div>
-              <p class="eyebrow">How the project moves</p>
-              <h3 id="pipeline-title">Overall Project Pipeline</h3>
-            </div>
-            <p>Follow this shared sequence from first research through final publication.</p>
-          </div>
-          <ol class="pipeline-strip" aria-label="Assignment 1 project workflow">
-            <li>Research</li>
-            <li>Understand Components</li>
-            <li>Analyze Interactions</li>
-            <li>Create Diagrams</li>
-            <li>Write Report Sections</li>
-            <li>Peer Review</li>
-            <li>Integrate Report</li>
-            <li>Publish</li>
-          </ol>
-          <div class="stage-grid">
-            <article><span>Stage 1</span><h4>Research</h4><p>Read OpenPilot's official documentation and investigate the relevant areas of its GitHub repository.</p></article>
-            <article><span>Stage 2</span><h4>Architecture Analysis</h4><p>Identify the important subsystems, their responsibilities, and their relationships.</p></article>
-            <article><span>Stage 3</span><h4>Diagrams</h4><p>Create the component, dependency, and sequence diagrams required by Assignment 1.</p></article>
-            <article><span>Stage 4</span><h4>Writing</h4><p>Write individual report contributions that reference architecture evidence and the assigned diagrams.</p></article>
-            <article><span>Stage 5</span><h4>Review</h4><p>Exchange work and verify that terminology, component names, and architecture descriptions are consistent.</p></article>
-            <article><span>Stage 6</span><h4>Integration</h4><p>Combine all contributions into the required 10–15 page report.</p></article>
-            <article><span>Stage 7</span><h4>Publication</h4><p>Publish the report on the Group H website and prepare the presentation slides in PDF format.</p></article>
-          </div>
-        </section>
-
-        <section class="dashboard-block workflows-section" aria-labelledby="workflows-title">
-          <div class="dashboard-heading">
-            <div>
-              <p class="eyebrow">Member playbooks</p>
-              <h3 id="workflows-title">Detailed Individual Workflows</h3>
-            </div>
-            <p>Open your name, complete the numbered steps in order, and use the definition of done before submitting.</p>
-          </div>
-
-          <details class="workflow-panel" id="workflow-setayesh">
-            <summary>
-              <span><strong>Setayesh Chegini</strong><small>Project Coordinator, Introduction, Abstract &amp; Final Integration</small></span>
-              <span class="workflow-progress" data-member-progress="setayesh-chegini">0% complete</span>
-            </summary>
-            <div class="workflow-content">
-              <div class="workflow-meta"><p><strong>Expected contribution:</strong> Approximately 2 pages of original writing, plus final report integration and publication.</p><div class="mini-progress" role="progressbar" aria-label="Setayesh task completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span data-member-progress-bar="setayesh-chegini"></span></div></div>
-              <div class="workflow-resources"><strong>Start with official sources:</strong><a href="https://docs.comma.ai/" target="_blank" rel="noopener noreferrer">OpenPilot documentation</a><a href="https://github.com/commaai/openpilot" target="_blank" rel="noopener noreferrer">OpenPilot repository</a><a href="https://www.comma.ai/openpilot" target="_blank" rel="noopener noreferrer">OpenPilot overview</a></div>
-              <ol class="workflow-steps">
-                <li class="workflow-step"><div class="step-heading"><span>1</span><div><p>Planning</p><h4>Understand the Assignment</h4></div></div><ul><li>Read all assignment instructions and Appendix A.</li><li>List every mandatory report section and required diagram.</li><li>Confirm the 10–15 page limit, single spacing, and 12-point font.</li><li>Create a common document outline for the team.</li></ul><p class="step-output"><strong>Output:</strong> Complete report outline and requirements checklist.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>2</span><div><p>Research</p><h4>Research OpenPilot's Purpose</h4></div></div><p>Determine what OpenPilot is, which driver-assistance problems it addresses, its principal features, hardware and vehicle interfaces, limitations, and how it differs from full autonomy.</p><p class="step-output"><strong>Output:</strong> Research notes covering purpose, functionality, and limitations.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>3</span><div><p>Writing</p><h4>Write the Introduction</h4></div></div><ul><li>Define OpenPilot and explain why its architecture is worth studying.</li><li>Summarize its major functionality.</li><li>State the report's scope and objectives.</li><li>Explain how the remaining report is organized.</li></ul><p class="step-output"><strong>Output:</strong> Approximately 1–1.5 pages of introduction and overview.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>4</span><div><p>Writing</p><h4>Write the Abstract</h4></div></div><p>After all other sections are drafted, summarize the study purpose, major subsystems, interactions, architectural findings, and conclusions.</p><p class="step-output"><strong>Output:</strong> Approximately two-thirds of a page.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>5</span><div><p>Integration &amp; review</p><h4>Integrate the Final Report</h4></div></div><ul><li>Collect every contribution, diagram, and reference.</li><li>Check required sections, consistent terminology, labels, legends, and citations.</li><li>Ensure each diagram is explained and repeated material is removed.</li><li>Keep the report focused on conceptual architecture.</li></ul><p class="step-output"><strong>Output:</strong> One coherent, reviewed 10–15 page report.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>6</span><div><p>Submission</p><h4>Complete Final Publication</h4></div></div><ul><li>Export and verify the final report PDF.</li><li>Upload it to the Group H website and test every link.</li><li>Collect or prepare presentation slides.</li><li>Export the slides as a submission-ready PDF.</li></ul><p class="step-output"><strong>Output:</strong> Published report link and presentation PDF.</p></li>
-              </ol>
-              <div class="definition-done"><h4>Definition of Done</h4><ul><li>Introduction and abstract are complete.</li><li>The integrated report satisfies all requirements.</li><li>The publication link has been verified.</li><li>The presentation PDF is ready.</li></ul></div>
-            </div>
-          </details>
-
-          <details class="workflow-panel" id="workflow-spence">
-            <summary>
-              <span><strong>Spence Hashemi</strong><small>System Architecture, Subsystems &amp; Dependency Diagrams</small></span>
-              <span class="workflow-progress" data-member-progress="spence-hashemi">0% complete</span>
-            </summary>
-            <div class="workflow-content">
-              <div class="workflow-meta"><p><strong>Expected contribution:</strong> 2–3 pages, including the architecture and dependency diagrams.</p><div class="mini-progress" role="progressbar" aria-label="Spence task completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span data-member-progress-bar="spence-hashemi"></span></div></div>
-              <div class="workflow-resources"><strong>Start with official sources:</strong><a href="https://github.com/commaai/openpilot" target="_blank" rel="noopener noreferrer">OpenPilot repository</a><a href="https://docs.comma.ai/" target="_blank" rel="noopener noreferrer">OpenPilot documentation</a><a href="https://github.com/commaai/openpilot/blob/master/openpilot/system/manager/process_config.py" target="_blank" rel="noopener noreferrer">Process configuration</a></div>
-              <ol class="workflow-steps">
-                <li class="workflow-step"><div class="step-heading"><span>1</span><div><p>Research</p><h4>Study the Overall Architecture</h4></div></div><p>Examine how OpenPilot divides functionality among processes and modules. Record reliable source links for every claim.</p><p class="step-output"><strong>Output:</strong> Initial architecture notes and process list.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>2</span><div><p>Analysis</p><h4>Identify the Major Subsystems</h4></div></div><p>Cover camera and sensor inputs, perception, planning, control, driver monitoring, vehicle interface, user interface, process management, and supporting services.</p><ul><li>For each subsystem, document its responsibility, inputs, outputs, interactions, and reason for separation.</li></ul><p class="step-output"><strong>Output:</strong> Subsystem inventory table with dependencies and source references.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>3</span><div><p>Analysis</p><h4>Identify the Architecture Styles</h4></div></div><p>Evaluate evidence for modular, message-based or publish-subscribe, pipeline, and layered patterns. Explain where each pattern applies without forcing the whole system into one style.</p><p class="step-output"><strong>Output:</strong> Evidence-based architecture-style analysis.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>4</span><div><p>Diagram</p><h4>Create the Overall Architecture Diagram</h4></div></div><p>Show camera inputs, perception, planning, control, driver monitoring, vehicle integration, and user-facing outputs with clear, labeled information flows.</p><p class="step-output"><strong>Output:</strong> Conceptual architecture diagram in SVG or PNG format.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>5</span><div><p>Diagram</p><h4>Create the Dependency Diagram</h4></div></div><p>Show dependency direction and include a legend explaining that a dependency from M to N means M requires information or services from N. Do not present a data-flow diagram as a dependency diagram.</p><p class="step-output"><strong>Output:</strong> Dependency diagram in SVG or PNG format with a legend.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>6</span><div><p>Writing</p><h4>Write the Architecture Section</h4></div></div><p>Explain the subsystems, responsibilities, interactions, architecture styles, dependency relationships, and the benefits and limitations of this organization.</p><p class="step-output"><strong>Output:</strong> A referenced 2–3 page section plus both diagrams.</p></li>
-              </ol>
-              <div class="definition-done"><h4>Definition of Done</h4><ul><li>The architecture section is 2–3 pages.</li><li>The subsystem inventory is supported by sources.</li><li>Architecture and dependency diagrams are labeled and exported.</li><li>References are included and work is ready for review.</li></ul></div>
-            </div>
-          </details>
-
-          <details class="workflow-panel" id="workflow-mehdi">
-            <summary>
-              <span><strong>Mehdi Jafarian</strong><small>Control Flow, Data Flow, Concurrency &amp; Sequence Diagram 1</small></span>
-              <span class="workflow-progress" data-member-progress="mehdi-jafarian">0% complete</span>
-            </summary>
-            <div class="workflow-content">
-              <div class="workflow-meta"><p><strong>Expected contribution:</strong> 2–3 pages, including the adaptive-cruise-control sequence diagram.</p><div class="mini-progress" role="progressbar" aria-label="Mehdi task completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span data-member-progress-bar="mehdi-jafarian"></span></div></div>
-              <div class="workflow-resources"><strong>Study these sources:</strong><a href="https://github.com/commaai/openpilot/blob/master/openpilot/system/manager/process_config.py" target="_blank" rel="noopener noreferrer">Process configuration</a><a href="https://github.com/commaai/openpilot/blob/master/openpilot/selfdrive/controls/controlsd.py" target="_blank" rel="noopener noreferrer">controlsd</a><a href="https://github.com/commaai/openpilot/blob/master/openpilot/selfdrive/controls/plannerd.py" target="_blank" rel="noopener noreferrer">plannerd</a><a href="https://github.com/commaai/openpilot/blob/master/openpilot/selfdrive/test/process_replay/process_replay.py" target="_blank" rel="noopener noreferrer">process replay</a></div>
-              <ol class="workflow-steps">
-                <li class="workflow-step"><div class="step-heading"><span>1</span><div><p>Research</p><h4>Study How Data Moves</h4></div></div><p>Investigate OpenPilot's message-based communication and identify the processes and messages relevant to driving control.</p><p class="step-output"><strong>Output:</strong> Source-backed notes on processes, messages, publishers, and subscribers.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>2</span><div><p>Data flow</p><h4>Trace the Driving Pipeline</h4></div></div><p>Trace an adaptive-cruise-control scenario from road and vehicle observations through perception, planning, controls, the vehicle interface, and feedback from updated vehicle state.</p><p class="step-output"><strong>Output:</strong> Documented end-to-end data-flow explanation with actual processes and messages.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>3</span><div><p>Control flow</p><h4>Explain System Operation</h4></div></div><p>Explain startup, process activation, engagement, command delivery, disengagement, and reactions to unavailable or invalid inputs. Clearly separate verified behavior from assumptions.</p><p class="step-output"><strong>Output:</strong> Evidence-based control-flow analysis.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>4</span><div><p>Concurrency</p><h4>Investigate Concurrent Processing</h4></div></div><p>Identify separate processes, concurrent activities, message-based coordination, real-time benefits, and conceptual handling of delayed, missing, or invalid messages.</p><p class="step-output"><strong>Output:</strong> Short concurrency analysis.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>5</span><div><p>Diagram</p><h4>Create Sequence Diagram 1</h4></div></div><p>Model adaptive cruise control responding to a slower vehicle. Include sensors, camera processing, perception, radar where applicable, longitudinal planning, controls, vehicle interface, and vehicle. Show publish-subscribe messages instead of implying every interaction is a direct function call.</p><p class="step-output"><strong>Output:</strong> Verified sequence diagram in SVG or PNG format.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>6</span><div><p>Writing</p><h4>Write the Report Section</h4></div></div><p>Explain data flow, control flow, concurrency, the sequence diagram, and the source evidence used.</p><p class="step-output"><strong>Output:</strong> A referenced 2–3 page analysis and one sequence diagram.</p></li>
-              </ol>
-              <div class="definition-done"><h4>Definition of Done</h4><ul><li>The data and control flows use verified processes and messages.</li><li>Concurrency is explained conceptually.</li><li>Sequence diagram 1 is labeled and exported.</li><li>The 2–3 page section and references are ready for review.</li></ul></div>
-            </div>
-          </details>
-
-          <details class="workflow-panel" id="workflow-david">
-            <summary>
-              <span><strong>David Odidi</strong><small>External Interfaces, Use Cases &amp; Sequence Diagram 2</small></span>
-              <span class="workflow-progress" data-member-progress="david-odidi">0% complete</span>
-            </summary>
-            <div class="workflow-content">
-              <div class="workflow-meta"><p><strong>Expected contribution:</strong> 2–3 pages, including an interface table, three use cases, and the driver-monitoring sequence diagram.</p><div class="mini-progress" role="progressbar" aria-label="David task completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span data-member-progress-bar="david-odidi"></span></div></div>
-              <div class="workflow-resources"><strong>Study these sources:</strong><a href="https://docs.comma.ai/" target="_blank" rel="noopener noreferrer">OpenPilot documentation</a><a href="https://github.com/commaai/openpilot/blob/master/docs/how-to/car-port.md" target="_blank" rel="noopener noreferrer">Car port guide</a><a href="https://github.com/commaai/openpilot/blob/master/openpilot/selfdrive/selfdrived/selfdrived.py" target="_blank" rel="noopener noreferrer">selfdrived</a><a href="https://github.com/commaai/openpilot/blob/master/openpilot/selfdrive/modeld/dmonitoringmodeld.py" target="_blank" rel="noopener noreferrer">dmonitoringmodeld</a></div>
-              <ol class="workflow-steps">
-                <li class="workflow-step"><div class="step-heading"><span>1</span><div><p>Research</p><h4>Identify External Interfaces</h4></div></div><p>Investigate interactions with the driver, vehicle, cameras and sensors, the car communication network, and displays or alerts. Focus on information crossing system boundaries.</p><p class="step-output"><strong>Output:</strong> Verified list of system-boundary interactions.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>2</span><div><p>Analysis</p><h4>Document Each Interface</h4></div></div><p>For each interface, identify the external actor, incoming and outgoing information, OpenPilot's response, and the responsible subsystem.</p><p class="step-output"><strong>Output:</strong> External-interface table.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>3</span><div><p>Use cases</p><h4>Analyze Three Important Use Cases</h4></div></div><p>Document lane centering, adaptive cruise control, and driver monitoring. For each, include actor, preconditions, trigger, main flow, alternative or exceptional flow, result, and involved subsystems.</p><p class="step-output"><strong>Output:</strong> Three concise use-case descriptions.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>4</span><div><p>Diagram</p><h4>Create Sequence Diagram 2</h4></div></div><p>Show a distracted-driver scenario using verified components such as dmonitoringmodeld, dmonitoringd, selfdrived, and alert or UI components. Trace observations, attention evaluation, alerts, and the documented response to continued inattention.</p><p class="step-output"><strong>Output:</strong> Driver-monitoring sequence diagram in SVG or PNG format.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>5</span><div><p>Writing</p><h4>Write the Report Section</h4></div></div><p>Describe the external interfaces, summarize all three use cases, explain the sequence diagram, and cite the sources used.</p><p class="step-output"><strong>Output:</strong> A referenced 2–3 page section with its supporting table and diagram.</p></li>
-              </ol>
-              <div class="definition-done"><h4>Definition of Done</h4><ul><li>The external-interface table is complete.</li><li>All three use cases include required fields.</li><li>Sequence diagram 2 is verified, labeled, and exported.</li><li>The 2–3 page section and references are ready for review.</li></ul></div>
-            </div>
-          </details>
-
-          <details class="workflow-panel" id="workflow-dan">
-            <summary>
-              <span><strong>Dan Logvinovsky</strong><small>Design Analysis, Developer Responsibilities, Data Dictionary &amp; Conclusions</small></span>
-              <span class="workflow-progress" data-member-progress="dan-logvinovsky">0% complete</span>
-            </summary>
-            <div class="workflow-content">
-              <div class="workflow-meta"><p><strong>Expected contribution:</strong> Approximately 2–3 pages including supporting material, adjusted to keep the final report within 15 pages.</p><div class="mini-progress" role="progressbar" aria-label="Dan task completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span data-member-progress-bar="dan-logvinovsky"></span></div></div>
-              <div class="workflow-resources"><strong>Study these sources:</strong><a href="https://github.com/commaai/openpilot" target="_blank" rel="noopener noreferrer">OpenPilot repository</a><a href="https://github.com/commaai/openpilot/blob/master/openpilot/selfdrive/test/process_replay/README.md" target="_blank" rel="noopener noreferrer">Process replay guide</a><a href="https://github.com/commaai/openpilot/blob/master/docs/SAFETY.md" target="_blank" rel="noopener noreferrer">Safety documentation</a></div>
-              <ol class="workflow-steps">
-                <li class="workflow-step"><div class="step-heading"><span>1</span><div><p>Review</p><h4>Review the System Architecture</h4></div></div><p>Study the architecture material produced by Spence, Mehdi, and David and identify the design decisions that shape OpenPilot.</p><p class="step-output"><strong>Output:</strong> Consolidated architecture-review notes.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>2</span><div><p>Design analysis</p><h4>Investigate Architectural Trade-offs</h4></div></div><p>Analyze process separation, message-based communication, real-time performance, fault handling, reliability, maintainability, extensibility, safety boundaries, and support for different vehicles. State advantages, disadvantages, and implications.</p><p class="step-output"><strong>Output:</strong> Architectural trade-off analysis.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>3</span><div><p>Development</p><h4>Explain Developer Responsibilities</h4></div></div><p>Explain how contributors can work across perception, planning, controls, vehicle integration, monitoring, UI, testing, integration, and safety. Identify shared interfaces and contracts without inventing OpenPilot's internal employee structure.</p><p class="step-output"><strong>Output:</strong> Developer-responsibility discussion clearly labeled as architecture analysis.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>4</span><div><p>Reference material</p><h4>Create the Data Dictionary</h4></div></div><p>Verify and document terms such as modelV2, carState, carControl, longitudinalPlan, driverMonitoringState, selfdriveState, controlsState, radarState, CAN, and panda.</p><p class="step-output"><strong>Output:</strong> Table with Term, Type/Category, Meaning, and Used By columns.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>5</span><div><p>Reference material</p><h4>Document Naming Conventions</h4></div></div><p>Explain subsystem and process names, background processes ending in <code>d</code>, message and data-structure names, module naming, and important abbreviations.</p><p class="step-output"><strong>Output:</strong> Concise naming-convention guide.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>6</span><div><p>Reliability</p><h4>Investigate Testing and Safety</h4></div></div><p>Use the process-replay and safety documentation to explain how automated tests, replay, and safety mechanisms support the architecture without drifting into detailed test implementation.</p><p class="step-output"><strong>Output:</strong> Short testing-and-reliability analysis.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>7</span><div><p>Writing</p><h4>Write Lessons Learned and Conclusions</h4></div></div><p>Summarize architectural strengths, limitations, analysis challenges, lessons learned, possible study improvements, and future development directions.</p><p class="step-output"><strong>Output:</strong> Lessons-learned and conclusion section.</p></li>
-                <li class="workflow-step"><div class="step-heading"><span>8</span><div><p>Integration</p><h4>Organize References</h4></div></div><p>Collect all members' sources, remove duplicates, confirm working URLs, and apply one consistent citation format.</p><p class="step-output"><strong>Output:</strong> Consolidated reference list.</p></li>
-              </ol>
-              <div class="definition-done"><h4>Definition of Done</h4><ul><li>Trade-offs and developer responsibilities are explained.</li><li>The data dictionary and naming guide use verified terminology.</li><li>Testing, safety, lessons learned, and conclusions are complete.</li><li>References are consolidated and the material is ready for integration.</li></ul></div>
-            </div>
-          </details>
-        </section>
-
-        <div class="requirements-panel" aria-labelledby="requirements-title">
-          <div>
-            <p class="eyebrow">Assignment criteria</p>
-            <h3 id="requirements-title">Assignment 1 Report Requirements</h3>
-          </div>
-          <ul class="requirements-list">
-            <li>Final report length: 10–15 pages.</li>
-            <li>Format: Single-spaced, 12-point font.</li>
-            <li>Focus on conceptual architecture, not implementation details.</li>
-            <li>Include at least two sequence diagrams or state diagrams.</li>
-            <li>Include an architecture overview diagram.</li>
-            <li>Include a dependency diagram.</li>
-            <li>Explain the main subsystems and their interactions.</li>
-            <li>Describe control flow, data flow, and concurrency.</li>
-            <li>Explain how responsibilities are divided among participating developers.</li>
-            <li>Provide proper references and relevant external links.</li>
-            <li>Publish the final report on the Group H website.</li>
-            <li>Submit presentation slides in PDF format before the class presentation.</li>
-          </ul>
-        </div>
-
-        <section class="dashboard-block handoff-panel" aria-labelledby="handoff-title">
-          <div class="dashboard-heading">
-            <div>
-              <p class="eyebrow">Dependencies &amp; coordination</p>
-              <h3 id="handoff-title">Team Handoffs</h3>
-            </div>
-            <p>This is the main dependency sequence, not a restriction on parallel research.</p>
-          </div>
-          <div class="handoff-flow" aria-label="Spence, then Mehdi and David, then Dan, then Setayesh">
-            <span>Spence</span><b aria-hidden="true">→</b><span>Mehdi &amp; David</span><b aria-hidden="true">→</b><span>Dan</span><b aria-hidden="true">→</b><span>Setayesh</span>
-          </div>
-          <div class="handoff-notes">
-            <article><strong>Spence</strong><p>Establishes the shared architecture, subsystem boundaries, and component names.</p></article>
-            <article><strong>Mehdi</strong><p>Uses the agreed architecture to trace control flow, data flow, and concurrency.</p></article>
-            <article><strong>David</strong><p>Uses the same component structure to analyze interfaces, use cases, and driver monitoring.</p></article>
-            <article><strong>Dan</strong><p>Reviews the architecture and other sections to produce design analysis and supporting material.</p></article>
-            <article><strong>Setayesh</strong><p>Integrates, reviews, formats, and publishes the complete report.</p></article>
-          </div>
-          <p class="parallel-note"><strong>Work in parallel:</strong> Everyone should begin research immediately. Mehdi and David can research independently while Spence prepares the architecture diagram.</p>
-          <div class="checkpoint-grid">
-            <article><span>1</span><h4>Research Complete</h4><p>Each member has reliable sources and has identified the relevant subsystems.</p></article>
-            <article><span>2</span><h4>Architecture Agreed</h4><p>The team agrees on component names and diagram conventions.</p></article>
-            <article><span>3</span><h4>Individual Drafts Complete</h4><p>Written sections, diagrams, and references have been submitted.</p></article>
-            <article><span>4</span><h4>Review Complete</h4><p>Overlapping sections and diagrams have been cross-checked.</p></article>
-            <article><span>5</span><h4>Final Publication</h4><p>The integrated report is posted on the Group H website.</p></article>
-          </div>
-        </section>
-
-        <section class="dashboard-block shared-resources-panel" aria-labelledby="shared-resources-title">
-          <div class="dashboard-heading">
-            <div>
-              <p class="eyebrow">Shared toolkit</p>
-              <h3 id="shared-resources-title">Tools &amp; Resources</h3>
-            </div>
-            <p>Use current official source material; older diagrams may describe OpenPilot components that no longer exist.</p>
-          </div>
-          <div class="table-shell" role="region" aria-label="Assignment 1 tools and resources" tabindex="0">
-            <table class="project-table resources-table">
-              <caption class="visually-hidden">Shared tools, links, and their purpose</caption>
-              <thead><tr><th scope="col">Tool or Resource</th><th scope="col">Purpose</th></tr></thead>
-              <tbody>
-                <tr><td data-label="Tool or Resource"><a href="https://docs.comma.ai/" target="_blank" rel="noopener noreferrer">Official OpenPilot Documentation</a></td><td data-label="Purpose">Understand functionality, behavior, and limitations.</td></tr>
-                <tr><td data-label="Tool or Resource"><a href="https://github.com/commaai/openpilot" target="_blank" rel="noopener noreferrer">Official OpenPilot GitHub Repository</a></td><td data-label="Purpose">Inspect major subsystems, messages, processes, and architecture evidence.</td></tr>
-                <tr><td data-label="Tool or Resource"><a href="https://app.diagrams.net/" target="_blank" rel="noopener noreferrer">diagrams.net</a></td><td data-label="Purpose">Create architecture, dependency, and sequence diagrams.</td></tr>
-                <tr><td data-label="Tool or Resource"><a href="https://mermaid.js.org/" target="_blank" rel="noopener noreferrer">Mermaid</a></td><td data-label="Purpose">Create version-controlled diagrams from text.</td></tr>
-                <tr><td data-label="Tool or Resource">Google Docs or Microsoft Word</td><td data-label="Purpose">Draft and collaborate on editable report sections.</td></tr>
-                <tr><td data-label="Tool or Resource"><a href="https://github.com/eecs4314-group-h/openpilot-architecture-group" target="_blank" rel="noopener noreferrer">GitHub</a></td><td data-label="Purpose">Store report files, diagrams, references, and shared status data.</td></tr>
-                <tr><td data-label="Tool or Resource"><a href="https://eecs4314-group-h.github.io/openpilot-architecture-group/" target="_blank" rel="noopener noreferrer">GitHub Pages</a></td><td data-label="Purpose">Publish the final report and presentation.</td></tr>
-                <tr><td data-label="Tool or Resource"><a href="https://www.zotero.org/" target="_blank" rel="noopener noreferrer">Zotero or another citation manager</a></td><td data-label="Purpose">Organize and format references.</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p class="resource-note"><strong>No vehicle setup is required:</strong> Members do not need to run OpenPilot in a real vehicle to complete this conceptual architecture assignment.</p>
-        </section>
-
-        <section class="dashboard-block submission-panel" aria-labelledby="submission-title">
-          <div class="dashboard-heading">
-            <div>
-              <p class="eyebrow">Handoff standard</p>
-              <h3 id="submission-title">Required Individual Submission Format</h3>
-            </div>
-            <p>Use the same structure and naming rules so final integration does not require reorganizing everyone's work.</p>
-          </div>
-          <div class="submission-layout">
-            <div>
-              <h4>Every member submits</h4>
-              <ol class="submission-list">
-                <li>An editable document containing the report contribution.</li>
-                <li>Assigned diagrams in SVG or PNG format.</li>
-                <li>A short reference list containing source URLs.</li>
-                <li>A list of assumptions or unresolved questions.</li>
-                <li>A short explanation of how the contribution relates to the overall architecture.</li>
-              </ol>
-              <div class="naming-rule"><strong>File naming convention</strong><code>lastname-assignment1-artifact-v01.ext</code><p>Example: <code>hashemi-assignment1-architecture-diagram-v01.svg</code></p></div>
-            </div>
-            <div>
-              <h4>Repository structure</h4>
-              <pre class="file-tree"><code>reports/
-  setayesh/
-  spence/
-  mehdi/
-  david/
-  dan/
-
-documents/
-  research-notes/
-  shared-glossary/
-
-resources/
-  architecture-diagrams/
-  sequence-diagrams/
-  references/</code></pre>
-            </div>
-          </div>
-        </section>
-
-        <div class="progress-panel" aria-labelledby="progress-title">
-          <div class="progress-heading">
-            <div>
-              <p class="eyebrow">Repository-backed status</p>
-              <h3 id="progress-title">Assignment 1 Task Progress Tracker</h3>
-            </div>
-            <p>Status updates are stored in <code>data/task-status.json</code> so committed changes persist for every visitor.</p>
-          </div>
-          <div class="overall-progress-card">
-            <div><span>Overall project completion</span><strong data-overall-progress>0%</strong></div>
-            <div class="overall-progress-bar" role="progressbar" aria-label="Overall Assignment 1 completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span data-overall-progress-bar></span></div>
-            <p><span data-overall-completed>0</span> of <span data-overall-total>0</span> tracked steps completed.</p>
-          </div>
-          <div class="member-trackers">
-            <section class="member-task-tracker" aria-labelledby="tracker-setayesh-title">
-              <div class="member-tracker-heading"><div><h4 id="tracker-setayesh-title">Setayesh Chegini</h4><span data-member-progress="setayesh-chegini">0% complete</span></div><span class="status-badge status-not-started" data-task-status="setayesh-chegini">Not Started</span></div>
-              <div class="mini-progress" role="progressbar" aria-label="Setayesh detailed task completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span data-member-progress-bar="setayesh-chegini"></span></div>
-              <div class="task-list" data-task-list="setayesh-chegini"><p class="task-loading">Loading persisted task steps…</p></div>
-            </section>
-            <section class="member-task-tracker" aria-labelledby="tracker-spence-title">
-              <div class="member-tracker-heading"><div><h4 id="tracker-spence-title">Spence Hashemi</h4><span data-member-progress="spence-hashemi">0% complete</span></div><span class="status-badge status-not-started" data-task-status="spence-hashemi">Not Started</span></div>
-              <div class="mini-progress" role="progressbar" aria-label="Spence detailed task completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span data-member-progress-bar="spence-hashemi"></span></div>
-              <div class="task-list" data-task-list="spence-hashemi"><p class="task-loading">Loading persisted task steps…</p></div>
-            </section>
-            <section class="member-task-tracker" aria-labelledby="tracker-mehdi-title">
-              <div class="member-tracker-heading"><div><h4 id="tracker-mehdi-title">Mehdi Jafarian</h4><span data-member-progress="mehdi-jafarian">0% complete</span></div><span class="status-badge status-not-started" data-task-status="mehdi-jafarian">Not Started</span></div>
-              <div class="mini-progress" role="progressbar" aria-label="Mehdi detailed task completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span data-member-progress-bar="mehdi-jafarian"></span></div>
-              <div class="task-list" data-task-list="mehdi-jafarian"><p class="task-loading">Loading persisted task steps…</p></div>
-            </section>
-            <section class="member-task-tracker" aria-labelledby="tracker-david-title">
-              <div class="member-tracker-heading"><div><h4 id="tracker-david-title">David Odidi</h4><span data-member-progress="david-odidi">0% complete</span></div><span class="status-badge status-not-started" data-task-status="david-odidi">Not Started</span></div>
-              <div class="mini-progress" role="progressbar" aria-label="David detailed task completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span data-member-progress-bar="david-odidi"></span></div>
-              <div class="task-list" data-task-list="david-odidi"><p class="task-loading">Loading persisted task steps…</p></div>
-            </section>
-            <section class="member-task-tracker" aria-labelledby="tracker-dan-title">
-              <div class="member-tracker-heading"><div><h4 id="tracker-dan-title">Dan Logvinovsky</h4><span data-member-progress="dan-logvinovsky">0% complete</span></div><span class="status-badge status-not-started" data-task-status="dan-logvinovsky">Not Started</span></div>
-              <div class="mini-progress" role="progressbar" aria-label="Dan detailed task completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span data-member-progress-bar="dan-logvinovsky"></span></div>
-              <div class="task-list" data-task-list="dan-logvinovsky"><p class="task-loading">Loading persisted task steps…</p></div>
-            </section>
-          </div>
-          <p class="tracker-guidance">To update shared progress, edit each step in <code>data/task-status.json</code>, add an optional submitted-file link, and commit the change. The tracker does not store status in the browser.</p>
-        </div>
-      </section>
-
       <section class="section" id="assignments" aria-labelledby="assignments-title">
         <div class="section-heading">
-          <div>
-            <p class="eyebrow">Coursework</p>
-            <h2 id="assignments-title">Assignments</h2>
-          </div>
-          <p>Summaries and deliverables will be added as the term progresses.</p>
+          <div><p class="eyebrow">Current coursework</p><h2 id="assignments-title">Assignment 1 Workspaces</h2></div>
+          <p>Presentation work and report work have separate instructions, deadlines, deliverables, and repository-backed progress.</p>
         </div>
-        <div class="card-grid assignment-grid">
-          <article class="assignment-card assignment-card-featured">
-            <div class="assignment-topline">
-              <span>Assignment 0</span>
-              <span class="status-badge">Completed</span>
-            </div>
-            <h3>Group List + Website Link</h3>
-            <p><strong>Due:</strong> <time datetime="2026-10-04T23:59:00-04:00">October 4, 2026 at 11:59 PM</time></p>
+        <div class="assignment-focus-grid">
+          <article class="assignment-card assignment-focus-card">
+            <div class="assignment-topline"><span>Assignment 1</span><span class="status-badge status-not-started">Presentation</span></div>
+            <h3>Presentation Tasks &amp; Responsibilities</h3>
+            <p class="assignment-deadline"><strong>Due:</strong> <time datetime="2026-10-22T17:30:00-04:00">Thursday, October 22, 2026 at 5:30 PM</time></p>
+            <p>Prepare a class presentation explaining OpenPilot's conceptual software architecture. Group H presents at <strong>6:54 PM</strong>.</p>
+            <div class="card-progress-row"><span data-home-progress="presentation">0% complete</span><div class="mini-progress" role="progressbar" aria-label="Presentation task completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span data-home-progress-bar="presentation"></span></div></div>
+            <a class="assignment-link" href="assignment-1-presentation.html">Open the presentation workspace</a>
           </article>
-          <article class="assignment-card">
-            <p class="card-kicker">Assignment 1</p>
-            <h3>OpenPilot Architecture Analysis</h3>
-            <p><strong>Due:</strong> <time datetime="2026-10-22T17:30:00-04:00">Thursday, 22 October 2026, 5:30 PM</time></p>
-            <p>Team responsibilities, report requirements, and progress tracking.</p>
-            <a class="assignment-link" href="#responsibilities">View the Assignment 1 plan</a>
-          </article>
-          <article class="assignment-card">
-            <p class="card-kicker">Assignment 2</p>
-            <h3>Coming soon.</h3>
-          </article>
-          <article class="assignment-card">
-            <p class="card-kicker">Assignment 3</p>
-            <h3>Coming soon.</h3>
+          <article class="assignment-card assignment-focus-card">
+            <div class="assignment-topline"><span>Assignment 1</span><span class="status-badge status-not-started">Report</span></div>
+            <h3>Report Tasks &amp; Responsibilities</h3>
+            <p class="assignment-deadline"><strong>Due:</strong> <time datetime="2026-10-25T23:59:00-04:00">Sunday, October 25, 2026 at 11:59 PM</time></p>
+            <p>Create a 10–15 page conceptual software architecture report and publish the final report on the Group H website.</p>
+            <div class="card-progress-row"><span data-home-progress="report">0% complete</span><div class="mini-progress" role="progressbar" aria-label="Report task completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span data-home-progress-bar="report"></span></div></div>
+            <a class="assignment-link" href="assignment-1-report.html">Open the report workspace</a>
           </article>
         </div>
+        <p class="assignment-history"><strong>Completed:</strong> Assignment 0 — Group List + Website Link, due October 4, 2026 at 11:59 PM.</p>
       </section>
 
       <section class="section section-dark" id="architecture" aria-labelledby="architecture-title">
         <div class="report-layout">
-          <div>
-            <p class="eyebrow">Semester deliverable</p>
-            <h2 id="architecture-title">Architecture Report</h2>
-          </div>
-          <p>Our detailed OpenPilot architecture report will be developed and updated throughout the term.</p>
+          <div><p class="eyebrow">Semester deliverable</p><h2 id="architecture-title">Architecture Report</h2></div>
+          <p>Group H is developing a source-backed conceptual analysis of OpenPilot's subsystems, interactions, data and control flow, concurrency, interfaces, use cases, dependencies, design decisions, and trade-offs. The final Assignment 1 report will be published here after review.</p>
         </div>
       </section>
 
       <section class="section" id="resources" aria-labelledby="resources-title">
         <div class="section-heading">
-          <div>
-            <p class="eyebrow">Reference library</p>
-            <h2 id="resources-title">Resources</h2>
-          </div>
-          <p>Primary OpenPilot links and space for our growing research collection.</p>
+          <div><p class="eyebrow">Reference library</p><h2 id="resources-title">Overall Project Resources</h2></div>
+          <p>Start with current first-party sources and use the assignment workspaces for topic-specific files.</p>
         </div>
         <div class="resource-layout">
           <div class="link-list">
-            <a href="https://www.comma.ai/openpilot" target="_blank" rel="noopener noreferrer">
-              <span><strong>OpenPilot Official Website</strong><small>comma.ai/openpilot</small></span>
-              <span aria-hidden="true">↗</span>
-            </a>
-            <a href="https://github.com/commaai/openpilot" target="_blank" rel="noopener noreferrer">
-              <span><strong>OpenPilot GitHub</strong><small>github.com/commaai/openpilot</small></span>
-              <span aria-hidden="true">↗</span>
-            </a>
-            <a href="https://docs.comma.ai/" target="_blank" rel="noopener noreferrer">
-              <span><strong>OpenPilot Documentation</strong><small>docs.comma.ai</small></span>
-              <span aria-hidden="true">↗</span>
-            </a>
+            <a href="https://www.comma.ai/openpilot" target="_blank" rel="noopener noreferrer"><span><strong>OpenPilot Official Website</strong><small>Functionality and product overview</small></span><span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/commaai/openpilot" target="_blank" rel="noopener noreferrer"><span><strong>OpenPilot GitHub</strong><small>Source code and architecture evidence</small></span><span aria-hidden="true">↗</span></a>
+            <a href="https://docs.comma.ai/" target="_blank" rel="noopener noreferrer"><span><strong>OpenPilot Documentation</strong><small>System behavior and official guidance</small></span><span aria-hidden="true">↗</span></a>
+            <a href="https://app.diagrams.net/" target="_blank" rel="noopener noreferrer"><span><strong>diagrams.net</strong><small>Architecture, dependency, and sequence diagrams</small></span><span aria-hidden="true">↗</span></a>
+            <a href="https://mermaid.js.org/" target="_blank" rel="noopener noreferrer"><span><strong>Mermaid</strong><small>Version-controlled diagrams from text</small></span><span aria-hidden="true">↗</span></a>
+            <a href="https://www.zotero.org/" target="_blank" rel="noopener noreferrer"><span><strong>Zotero</strong><small>Reference collection and citation management</small></span><span aria-hidden="true">↗</span></a>
           </div>
-          <aside class="collection-card">
-            <h3>Collection in progress</h3>
-            <ul>
-              <li>Research papers</li>
-              <li>Books</li>
-              <li>Documentation</li>
-              <li>Architecture references</li>
-              <li>Course resources</li>
-            </ul>
-          </aside>
+          <aside class="collection-card"><h3>Research principle</h3><p>Use current official material, record source URLs for technical claims, and distinguish verified behavior from interpretation. The team does not need to run OpenPilot in a real vehicle for this conceptual architecture work.</p></aside>
         </div>
       </section>
 
       <section class="section section-tinted" id="discussions" aria-labelledby="discussions-title">
-        <div class="compact-section">
-          <div>
-            <p class="eyebrow">Design notes</p>
-            <h2 id="discussions-title">Discussions</h2>
-          </div>
-          <p>Group discussions and design observations will be added throughout the project.</p>
-        </div>
+        <div class="compact-section"><div><p class="eyebrow">Design notes</p><h2 id="discussions-title">Discussions</h2></div><p>Group discussions, architecture decisions, unresolved questions, and peer-review notes will be added throughout the project.</p></div>
       </section>
 
       <section class="section" id="source-code" aria-labelledby="source-title">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Repositories</p>
-            <h2 id="source-title">Source Code</h2>
-          </div>
-        </div>
+        <div class="section-heading"><div><p class="eyebrow">Repositories</p><h2 id="source-title">Source Code</h2></div></div>
         <div class="card-grid source-grid">
-          <article class="source-card">
-            <p class="card-kicker">Upstream project</p>
-            <h3>OpenPilot Source Code</h3>
-            <a href="https://github.com/commaai/openpilot" target="_blank" rel="noopener noreferrer">github.com/commaai/openpilot</a>
-          </article>
-          <article class="source-card">
-            <p class="card-kicker">Course project</p>
-            <h3>Group Repository</h3>
-            <a href="https://github.com/eecs4314-group-h/openpilot-architecture-group" target="_blank" rel="noopener noreferrer">github.com/eecs4314-group-h/openpilot-architecture-group</a>
-          </article>
+          <article class="source-card"><p class="card-kicker">Upstream project</p><h3>OpenPilot Source Code</h3><a href="https://github.com/commaai/openpilot" target="_blank" rel="noopener noreferrer">github.com/commaai/openpilot</a></article>
+          <article class="source-card"><p class="card-kicker">Course project</p><h3>Group Repository</h3><a href="https://github.com/eecs4314-group-h/openpilot-architecture-group" target="_blank" rel="noopener noreferrer">github.com/eecs4314-group-h/openpilot-architecture-group</a></article>
         </div>
       </section>
     </main>
 
-    <footer>
-      <p><strong>Group H</strong></p>
-      <p>York University · Software Architecture &amp; Design</p>
-    </footer>
+    <footer><p><strong>Group H</strong></p><p>York University · EECS 4314 · Advanced Software Engineering</p></footer>
   </body>
 </html>

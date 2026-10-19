@@ -1641,3 +1641,688 @@ footer p {
     scroll-behavior: auto;
   }
 }
+
+/* Assignment workspaces */
+.assignment-focus-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.assignment-focus-card {
+  display: flex;
+  min-height: 23rem;
+  flex-direction: column;
+  border-top: 0.3rem solid var(--york-red);
+  box-shadow: var(--shadow);
+}
+
+.assignment-focus-card h3 {
+  font-size: clamp(1.45rem, 2.5vw, 2rem);
+}
+
+.assignment-focus-card .assignment-link {
+  margin-top: auto;
+}
+
+.assignment-deadline {
+  color: var(--ink);
+}
+
+.card-progress-row {
+  display: grid;
+  gap: 0.45rem;
+  margin: 1rem 0 1.5rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 750;
+}
+
+.card-progress-row .mini-progress {
+  width: 100%;
+}
+
+.assignment-history {
+  margin: 1.5rem 0 0;
+  padding: 1rem 1.25rem;
+  color: var(--muted);
+  background: var(--surface);
+  border-left: 0.25rem solid var(--line);
+}
+
+.breadcrumb-shell {
+  width: min(calc(100% - 2rem), var(--content));
+  margin: 0 auto;
+  padding-top: 1.15rem;
+}
+
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 0;
+  color: var(--muted);
+  font-size: 0.83rem;
+  list-style: none;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+  margin-left: 0.35rem;
+  color: #9aa2ae;
+  content: "›";
+}
+
+.breadcrumbs a {
+  color: var(--york-red);
+  font-weight: 700;
+}
+
+.assignment-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(18rem, 0.65fr);
+  gap: clamp(2rem, 6vw, 5rem);
+  align-items: center;
+  width: min(calc(100% - 2rem), var(--content));
+  margin: 0 auto;
+  padding: clamp(3.5rem, 7vw, 6rem) 0;
+}
+
+.assignment-hero h1 {
+  max-width: 18ch;
+  font-size: clamp(2.5rem, 6vw, 4.8rem);
+}
+
+.assignment-lead {
+  max-width: 48rem;
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.12rem;
+}
+
+.deadline-card {
+  padding: 1.8rem;
+  color: white;
+  background: var(--dark);
+  border-top: 0.3rem solid var(--york-red);
+  border-radius: 0.65rem;
+  box-shadow: var(--shadow);
+}
+
+.deadline-card .card-kicker {
+  color: #ffb4bf;
+}
+
+.deadline-card dl {
+  margin: 0;
+}
+
+.deadline-card dl div {
+  padding: 1rem 0;
+  border-top: 1px solid #414a56;
+}
+
+.deadline-card dt {
+  color: #cbd1d9;
+  font-size: 0.8rem;
+}
+
+.deadline-card dd {
+  margin: 0.2rem 0 0;
+  font-weight: 760;
+}
+
+.schedule-note {
+  margin: 0.75rem 0 0;
+  color: #cbd1d9;
+  font-size: 0.85rem;
+}
+
+.overview-card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.overview-card-grid article {
+  padding: 1.35rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-top: 0.22rem solid var(--york-red);
+  border-radius: 0.55rem;
+}
+
+.overview-card-grid span {
+  display: block;
+  margin-bottom: 0.75rem;
+  color: var(--york-red);
+  font-size: 1.9rem;
+  font-weight: 850;
+  line-height: 1;
+}
+
+.overview-card-grid h3,
+.overview-card-grid p {
+  margin-bottom: 0;
+}
+
+.overview-card-grid p {
+  margin-top: 0.65rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.assignment-page #pipeline {
+  background: var(--dark);
+  color: white;
+}
+
+.assignment-page #pipeline .eyebrow {
+  color: #ffb4bf;
+}
+
+.assignment-page #pipeline .section-heading > p {
+  color: #d4dae1;
+}
+
+.pipeline-ten {
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+
+.pipeline-eight {
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+
+.stage-grid-four {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.stage-grid-four article {
+  background: #262d36;
+}
+
+.stage-grid-four h3 {
+  margin: 0.35rem 0;
+  color: white;
+}
+
+.pipeline-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.pipeline-stage {
+  color: var(--ink);
+  background: white;
+  border: 1px solid #414a56;
+  border-radius: 0.5rem;
+}
+
+.pipeline-stage summary {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.pipeline-stage summary span {
+  display: grid;
+  width: 1.8rem;
+  height: 1.8rem;
+  flex: 0 0 auto;
+  place-items: center;
+  color: white;
+  background: var(--york-red);
+  border-radius: 50%;
+  font-size: 0.78rem;
+}
+
+.pipeline-stage > div {
+  padding: 0 1rem 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.pipeline-stage p {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.requirements-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(17rem, 0.55fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.requirements-layout .requirements-panel {
+  margin: 0;
+}
+
+.format-card {
+  padding: 1.5rem;
+  color: white;
+  background: var(--dark);
+  border-radius: 0.6rem;
+}
+
+.format-card .card-kicker {
+  color: #ffb4bf;
+}
+
+.format-card dl {
+  margin: 0;
+}
+
+.format-card dl div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid #414a56;
+}
+
+.format-card dd {
+  margin: 0;
+  font-weight: 760;
+  text-align: right;
+}
+
+.format-card > p:last-child {
+  margin: 1rem 0 0;
+  color: #cbd1d9;
+  font-size: 0.9rem;
+}
+
+.member-workspace {
+  overflow: clip;
+}
+
+.member-tabs {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+  padding: 0.4rem;
+  background: var(--dark);
+  border-radius: 0.65rem;
+}
+
+.member-tabs button {
+  min-width: 0;
+  padding: 0.8rem;
+  color: #dce1e8;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.45rem;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.member-tabs button span {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.72rem;
+  font-weight: 650;
+}
+
+.member-tabs button[aria-selected="true"] {
+  color: var(--ink);
+  background: white;
+  border-color: white;
+}
+
+.member-tabs button:focus-visible {
+  outline: 0.2rem solid #ffb4bf;
+  outline-offset: 0.1rem;
+}
+
+.member-panel {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 0.65rem;
+  box-shadow: var(--shadow);
+}
+
+.member-panel[hidden] {
+  display: none;
+}
+
+.member-panel-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(13rem, 0.35fr);
+  gap: 1rem;
+  align-items: start;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.member-panel-header h3 {
+  margin-bottom: 0.35rem;
+  font-size: clamp(1.7rem, 3vw, 2.35rem);
+}
+
+.member-panel-header p {
+  margin: 0;
+}
+
+.member-status-card {
+  display: grid;
+  gap: 0.55rem;
+  justify-items: end;
+}
+
+.member-status-card strong {
+  font-size: 1.25rem;
+}
+
+.member-status-card .mini-progress {
+  width: 100%;
+}
+
+.expected-contribution {
+  margin: 1.15rem 0;
+  padding: 0.9rem 1rem;
+  color: var(--muted);
+  background: var(--surface);
+  border-left: 0.22rem solid var(--york-red);
+}
+
+.workflow-layout {
+  display: grid;
+  grid-template-columns: minmax(10.5rem, 0.28fr) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.step-navigator {
+  position: sticky;
+  top: 6.2rem;
+  display: grid;
+  gap: 0.15rem;
+  padding: 1rem;
+  background: var(--surface);
+  border-radius: 0.5rem;
+}
+
+.step-navigator strong {
+  margin-bottom: 0.45rem;
+  color: var(--york-red);
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.step-navigator a {
+  padding: 0.35rem 0.45rem;
+  color: var(--muted);
+  border-radius: 0.3rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.step-navigator a:hover,
+.step-navigator a:focus-visible {
+  color: var(--york-red);
+  background: white;
+}
+
+.collapsible-steps {
+  display: grid;
+  gap: 0.65rem;
+  min-width: 0;
+}
+
+.step-card {
+  min-width: 0;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+}
+
+.step-card summary {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.step-card summary span {
+  flex: 0 0 auto;
+  padding: 0.3rem 0.5rem;
+  color: var(--york-red);
+  background: #f9edef;
+  border-radius: 0.3rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.step-card[open] summary {
+  color: var(--york-red);
+}
+
+.step-card > div {
+  padding: 0 1rem 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.step-card > div > :last-child {
+  margin-bottom: 0;
+}
+
+.step-card h4 {
+  margin-top: 1rem;
+}
+
+.step-card li + li {
+  margin-top: 0.25rem;
+}
+
+.deliverables-definition {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.deliverables-definition > div {
+  padding: 1.25rem;
+  background: var(--surface);
+  border-radius: 0.5rem;
+}
+
+.deliverables-definition h4 {
+  color: var(--york-red);
+}
+
+.deliverables-definition ul {
+  margin-bottom: 0;
+  padding-left: 1.2rem;
+}
+
+.individual-tracker {
+  margin-top: 1rem;
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+}
+
+.individual-tracker h4 {
+  margin-bottom: 1rem;
+}
+
+.task-id {
+  color: var(--york-red) !important;
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 0.7rem !important;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.checkpoint-list,
+.submission-checklist {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.checkpoint-item,
+.submission-check-item {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.65rem;
+  align-items: center;
+  padding: 1rem;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+}
+
+.checkpoint-item .status-badge,
+.submission-check-item .status-badge {
+  grid-column: 2;
+  justify-self: start;
+}
+
+.checkpoint-number {
+  display: grid;
+  width: 1.8rem;
+  height: 1.8rem;
+  grid-row: 1 / span 2;
+  place-items: center;
+  color: white;
+  background: var(--york-red);
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 850;
+}
+
+.overall-assignment-progress {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.7fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.overall-assignment-progress h2,
+.overall-assignment-progress p {
+  margin-bottom: 0;
+}
+
+.overall-progress-number {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.overall-progress-number > strong {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  text-align: right;
+}
+
+.section-dark .overall-progress-bar {
+  background: #3b434e;
+}
+
+.assignment-page footer a {
+  color: white;
+}
+
+@media (max-width: 64rem) {
+  .pipeline-ten {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .pipeline-eight,
+  .stage-grid-four,
+  .overview-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .member-tabs {
+    grid-template-columns: repeat(5, minmax(7.5rem, 1fr));
+    overflow-x: auto;
+  }
+
+  .checkpoint-list,
+  .submission-checklist {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 48rem) {
+  .assignment-focus-grid,
+  .assignment-hero,
+  .requirements-layout,
+  .member-panel-header,
+  .workflow-layout,
+  .deliverables-definition,
+  .pipeline-detail-grid,
+  .overall-assignment-progress {
+    grid-template-columns: 1fr;
+  }
+
+  .assignment-focus-card {
+    min-height: 0;
+  }
+
+  .assignment-hero {
+    gap: 2rem;
+    padding-top: 2.5rem;
+  }
+
+  .member-status-card {
+    justify-items: start;
+  }
+
+  .step-navigator {
+    position: static;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .step-navigator strong {
+    grid-column: 1 / -1;
+  }
+
+  .checkpoint-list,
+  .submission-checklist {
+    grid-template-columns: 1fr;
+  }
+
+  .overall-progress-number > strong {
+    text-align: left;
+  }
+}
+
+@media (max-width: 34rem) {
+  .pipeline-ten,
+  .pipeline-eight,
+  .stage-grid-four,
+  .overview-card-grid,
+  .step-navigator {
+    grid-template-columns: 1fr;
+  }
+
+  .member-panel {
+    padding: 1rem;
+  }
+
+  .step-card summary {
+    align-items: flex-start;
+  }
+
+  .breadcrumbs li:last-child {
+    display: none;
+  }
+}
