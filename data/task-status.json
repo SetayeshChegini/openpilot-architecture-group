@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    {
+      "id": "setayesh-chegini",
+      "member": "Setayesh Chegini",
+      "status": "Not Started"
+    },
+    {
+      "id": "spence-hashemi",
+      "member": "Spence Hashemi",
+      "status": "Not Started"
+    },
+    {
+      "id": "mehdi-jafarian",
+      "member": "Mehdi Jafarian",
+      "status": "Not Started"
+    },
+    {
+      "id": "david-odidi",
+      "member": "David Odidi",
+      "status": "Not Started"
+    },
+    {
+      "id": "dan-logvinovsky",
+      "member": "Dan Logvinovsky",
+      "status": "Not Started"
+    }
+  ]
+}

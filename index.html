@@ -8,6 +8,7 @@
     <title>Group H | OpenPilot Architecture Project</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%239a1020'/%3E%3Cpath d='M19 46V18h13c9 0 15 5 15 14s-6 14-15 14H19zm9-8h4c4 0 7-2 7-6s-3-6-7-6h-4v12z' fill='white'/%3E%3C/svg%3E">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/task-progress.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -21,6 +22,7 @@
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#team">Team</a></li>
+          <li><a href="#responsibilities">Responsibilities</a></li>
           <li><a href="#assignments">Assignments</a></li>
           <li><a href="#architecture">Architecture Report</a></li>
           <li><a href="#resources">Resources</a></li>
@@ -78,6 +80,132 @@
           <article class="member-card"><h3>Mehdi Jafarian</h3><p>Student Number:<strong>219899095</strong></p></article>
           <article class="member-card"><h3>David Odidi</h3><p>Student Number:<strong>214208086</strong></p></article>
           <article class="member-card"><h3>Dan Logvinovsky</h3><p>Student Number:<strong>215753494</strong></p></article>
+        </div>
+      </section>
+
+      <section class="section" id="responsibilities" aria-labelledby="responsibilities-title">
+        <div class="section-heading responsibilities-heading">
+          <div>
+            <p class="eyebrow">Project plan</p>
+            <h2 id="responsibilities-title">Team Responsibilities &amp; Task Distribution</h2>
+          </div>
+          <p>Each workstream has a clear owner, defined deliverables, and an expected contribution to the final report.</p>
+        </div>
+
+        <div class="table-shell" role="region" aria-label="Team responsibility assignments" tabindex="0">
+          <table class="project-table responsibility-table">
+            <caption class="visually-hidden">Team responsibilities, required deliverables, and expected report pages</caption>
+            <thead>
+              <tr>
+                <th scope="col">Team Member</th>
+                <th scope="col">Responsibility</th>
+                <th scope="col">Required Deliverables</th>
+                <th scope="col">Expected Pages</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Team Member"><strong>Setayesh Chegini</strong></td>
+                <td data-label="Responsibility">Project Coordinator &amp; Introduction</td>
+                <td data-label="Required Deliverables">Title, authors, abstract, introduction, OpenPilot functionality overview, final report integration, formatting, and website publication</td>
+                <td data-label="Expected Pages">2 pages + integration</td>
+              </tr>
+              <tr>
+                <td data-label="Team Member"><strong>Spence Hashemi</strong></td>
+                <td data-label="Responsibility">System Architecture &amp; Components</td>
+                <td data-label="Required Deliverables">Major subsystems, architecture style, component interactions, overall architecture diagram, and dependency diagram</td>
+                <td data-label="Expected Pages">2–3 pages</td>
+              </tr>
+              <tr>
+                <td data-label="Team Member"><strong>Mehdi Jafarian</strong></td>
+                <td data-label="Responsibility">Control Flow, Data Flow &amp; Concurrency</td>
+                <td data-label="Required Deliverables">Explain interactions between components, system operation, data flow, communication, concurrency, and create sequence diagram #1</td>
+                <td data-label="Expected Pages">2–3 pages</td>
+              </tr>
+              <tr>
+                <td data-label="Team Member"><strong>David Odidi</strong></td>
+                <td data-label="Responsibility">External Interfaces &amp; Use Cases</td>
+                <td data-label="Required Deliverables">Explain user and vehicle interfaces, driver monitoring, lane centering, adaptive cruise control use cases, and create sequence diagram #2</td>
+                <td data-label="Expected Pages">2–3 pages</td>
+              </tr>
+              <tr>
+                <td data-label="Team Member"><strong>Dan Logvinovsky</strong></td>
+                <td data-label="Responsibility">Design Analysis &amp; Developer Responsibilities</td>
+                <td data-label="Required Deliverables">Developer responsibilities, architectural decisions and trade-offs, data dictionary, naming conventions, lessons learned, conclusions, and references</td>
+                <td data-label="Expected Pages">2–3 pages</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="requirements-panel" aria-labelledby="requirements-title">
+          <div>
+            <p class="eyebrow">Assignment criteria</p>
+            <h3 id="requirements-title">Report Requirements</h3>
+          </div>
+          <ul class="requirements-list">
+            <li>Final report length: 10–15 pages.</li>
+            <li>Format: Single-spaced, 12-point font.</li>
+            <li>Focus on conceptual architecture, not implementation details.</li>
+            <li>Include at least two sequence diagrams or state diagrams.</li>
+            <li>Include an architecture overview diagram.</li>
+            <li>Include a dependency diagram.</li>
+            <li>Explain the main subsystems and their interactions.</li>
+            <li>Describe control flow, data flow, and concurrency.</li>
+            <li>Explain how responsibilities are divided among participating developers.</li>
+            <li>Provide proper references and relevant external links.</li>
+            <li>Publish the final report on the Group H website.</li>
+            <li>Submit presentation slides in PDF format before the class presentation.</li>
+          </ul>
+        </div>
+
+        <div class="progress-panel" aria-labelledby="progress-title">
+          <div class="progress-heading">
+            <div>
+              <p class="eyebrow">Repository-backed status</p>
+              <h3 id="progress-title">Task Progress Tracker</h3>
+            </div>
+            <p>Status updates are stored in <code>data/task-status.json</code> so committed changes persist for every visitor.</p>
+          </div>
+          <div class="table-shell" role="region" aria-label="Team task progress" tabindex="0">
+            <table class="project-table progress-table">
+              <caption class="visually-hidden">Current progress for each team member's assigned work</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Team Member</th>
+                  <th scope="col">Assigned Work</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Team Member"><strong>Setayesh Chegini</strong></td>
+                  <td data-label="Assigned Work">Project Coordinator &amp; Introduction</td>
+                  <td data-label="Status"><span class="status-badge status-not-started" data-task-status="setayesh-chegini">Not Started</span></td>
+                </tr>
+                <tr>
+                  <td data-label="Team Member"><strong>Spence Hashemi</strong></td>
+                  <td data-label="Assigned Work">System Architecture &amp; Components</td>
+                  <td data-label="Status"><span class="status-badge status-not-started" data-task-status="spence-hashemi">Not Started</span></td>
+                </tr>
+                <tr>
+                  <td data-label="Team Member"><strong>Mehdi Jafarian</strong></td>
+                  <td data-label="Assigned Work">Control Flow, Data Flow &amp; Concurrency</td>
+                  <td data-label="Status"><span class="status-badge status-not-started" data-task-status="mehdi-jafarian">Not Started</span></td>
+                </tr>
+                <tr>
+                  <td data-label="Team Member"><strong>David Odidi</strong></td>
+                  <td data-label="Assigned Work">External Interfaces &amp; Use Cases</td>
+                  <td data-label="Status"><span class="status-badge status-not-started" data-task-status="david-odidi">Not Started</span></td>
+                </tr>
+                <tr>
+                  <td data-label="Team Member"><strong>Dan Logvinovsky</strong></td>
+                  <td data-label="Assigned Work">Design Analysis &amp; Developer Responsibilities</td>
+                  <td data-label="Status"><span class="status-badge status-not-started" data-task-status="dan-logvinovsky">Not Started</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 

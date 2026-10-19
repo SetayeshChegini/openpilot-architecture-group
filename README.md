@@ -18,6 +18,10 @@ Student numbers are maintained directly in `index.html` as a simple static roste
 index.html
 css/
   style.css
+data/
+  task-status.json
+js/
+  task-progress.js
 assignments/
 reports/
 documents/
@@ -28,6 +32,10 @@ README.md
 ## Updating the Team List
 
 Edit the member cards in the `Team Members` section of `index.html`, then commit and push the change to `main`.
+
+## Updating Task Progress
+
+Edit each member's `status` in `data/task-status.json`, then commit and push the change to `main`. Supported values are `Not Started`, `In Progress`, and `Completed`. The website reads this file whenever the page loads, so the committed status is visible to every visitor.
 
 ## GitHub Pages
 
