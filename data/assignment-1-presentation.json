@@ -2,7 +2,7 @@
   "assignment": "Assignment 1 – Presentation",
   "deadline": "2026-10-22T17:30:00-04:00",
   "presentationTime": "2026-10-22T18:54:00-04:00",
-  "lastUpdated": "2026-10-19",
+  "lastUpdated": "2026-10-22",
   "members": [
     {
       "id": "setayesh-chegini",
@@ -61,10 +61,11 @@
       "items": [
         { "id": "presentation-dan-01", "description": "Review the major components and diagrams prepared by Spence, Mehdi, and David.", "expectedOutput": "Consolidated architecture-review notes.", "status": "Not Started", "deliverableUrl": "" },
         { "id": "presentation-dan-02", "description": "Investigate process separation, modularity, messaging, performance, reliability, compatibility, extensibility, and maintainability trade-offs.", "expectedOutput": "Source-backed architectural decision and trade-off analysis.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "presentation-dan-03", "description": "Create slide 9 with a decision, benefit, and challenge table supported by official resources.", "expectedOutput": "Completed design-trade-offs slide.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "presentation-dan-04", "description": "Create slide 10 explaining the main findings, strengths, limitations, and lessons learned.", "expectedOutput": "Completed conclusions slide.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "presentation-dan-05", "description": "Prepare speaking notes connecting the conclusions to the preceding architecture slides.", "expectedOutput": "Presentation-ready notes for slides 9–10.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "presentation-dan-06", "description": "Submit slides, trade-off analysis, conclusions, references, and notes.", "expectedOutput": "Complete presentation package ready for team review.", "status": "Not Started", "deliverableUrl": "" }
+        { "id": "presentation-dan-07", "description": "Preserve slide 9 as the complete evidence and references page, including the version and source-snapshot explanation.", "expectedOutput": "Complete evidence page with a short speaking script.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-dan-03", "description": "Create slide 10 with a decision, benefit, and challenge table supported by official resources.", "expectedOutput": "Completed design-trade-offs slide.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-dan-04", "description": "Create slide 11 explaining the main findings, strengths, limitations, and lessons learned.", "expectedOutput": "Completed conclusions slide.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-dan-05", "description": "Prepare speaking notes for the evidence page, trade-offs, and conclusion while connecting them to the preceding architecture slides.", "expectedOutput": "Presentation-ready notes for slides 9–11.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "presentation-dan-06", "description": "Submit slides 9–11, trade-off analysis, conclusions, references, and notes.", "expectedOutput": "Complete presentation package ready for team review.", "status": "Not Started", "deliverableUrl": "" }
       ]
     }
   ],
@@ -83,7 +84,7 @@
     { "id": "presentation-submit-04", "label": "Slide content verified", "status": "Not Started" },
     { "id": "presentation-submit-05", "label": "Speaking notes prepared", "status": "Not Started" },
     { "id": "presentation-submit-06", "label": "Presentation rehearsed", "status": "Not Started" },
-    { "id": "presentation-submit-07", "label": "References included", "status": "Not Started" },
+    { "id": "presentation-submit-07", "label": "Evidence and references page included and verified", "status": "Not Started" },
     { "id": "presentation-submit-08", "label": "PDF exported", "status": "Not Started" },
     { "id": "presentation-submit-09", "label": "PDF verified", "status": "Not Started" },
     { "id": "presentation-submit-10", "label": "Submission completed before the deadline", "status": "Not Started" }
