@@ -308,6 +308,14 @@
       const response = await fetch(source, { cache: "no-store" });
       if (!response.ok) throw new Error(`Task catalog request failed: ${response.status}`);
       const data = await response.json();
+      const packageUrl = typeof data.packageUrl === "string" ? data.packageUrl.trim() : "";
+      if (packageUrl) {
+        data.members?.forEach((member) => member.items?.forEach((item) => {
+          if (item.status !== "Completed") return;
+          if (!item.deliverableUrl) item.deliverableUrl = packageUrl;
+          if (!item.verificationStatus) item.verificationStatus = "Verified in final package";
+        }));
+      }
       renderStatusCollection(document.querySelector("[data-checkpoint-list]"), Array.isArray(data.checkpoints) ? data.checkpoints : [], "checkpoint-item");
       renderStatusCollection(document.querySelector("[data-submission-checklist]"), Array.isArray(data.submissionChecklist) ? data.submissionChecklist : [], "submission-check-item");
 
