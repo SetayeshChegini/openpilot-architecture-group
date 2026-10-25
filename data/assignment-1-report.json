@@ -1,16 +1,16 @@
 {
   "assignment": "Assignment 1 – Report",
   "deadline": "2026-10-25T23:59:00-04:00",
-  "lastUpdated": "2026-10-19",
+  "lastUpdated": "2026-10-25",
   "members": [
     {
       "id": "setayesh-chegini",
       "name": "Setayesh Chegini",
       "items": [
         { "id": "report-setayesh-01", "description": "Read the full requirements and Appendix A; identify every mandatory section, diagram, and formatting rule; create the team outline.", "expectedOutput": "Report outline and requirements checklist.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-setayesh-02", "description": "Research OpenPilot's purpose, problems, features, hardware and vehicle interfaces, limitations, and autonomy boundary.", "expectedOutput": "Research notes covering functionality and limitations.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-setayesh-03", "description": "Write the introduction covering description, motivation, functionality, objectives, scope, and report organization.", "expectedOutput": "Approximately 1–1.5 pages of introduction.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-setayesh-04", "description": "After receiving the other sections, write the abstract covering purpose, subsystems, interactions, findings, and conclusions.", "expectedOutput": "Approximately two-thirds of a page.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-setayesh-02", "description": "Use only the official comma.ai product overview for advertised features, general purpose, driver responsibility, and product-level limitations; use EECS 4314 materials for architecture concepts; separate product facts from Group H proposals.", "expectedOutput": "Product-level research notes with a clear facts-versus-proposals distinction.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-setayesh-03", "description": "Write the introduction and overview covering advertised purpose and features, motivation, objectives, scope, report organization, and the statement that Group H is proposing a conceptual design rather than documenting the real implementation.", "expectedOutput": "Approximately 1–1.5 pages of introduction and overview.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-setayesh-04", "description": "Write a provisional abstract covering purpose, proposed subsystem groups, intended cooperation, architectural qualities, trade-offs to evaluate, and objectives; revise it only after completed teammate sections are available.", "expectedOutput": "Approximately two-thirds of a page, marked provisional until integration.", "status": "Not Started", "deliverableUrl": "" },
         { "id": "report-setayesh-05", "description": "Integrate all sections, diagrams, and references; review completeness, terminology, labels, citations, duplication, focus, and page count.", "expectedOutput": "One coherent, reviewed 10–15 page report.", "status": "Not Started", "deliverableUrl": "" },
         { "id": "report-setayesh-06", "description": "Create and verify the final PDF, publish it on the Group H site, test its links, and complete submission.", "expectedOutput": "Verified publication link and submitted report.", "status": "Not Started", "deliverableUrl": "" }
       ]
@@ -19,49 +19,49 @@
       "id": "spence-hashemi",
       "name": "Spence Hashemi",
       "items": [
-        { "id": "report-spence-01", "description": "Study how OpenPilot organizes functionality into current processes and modules.", "expectedOutput": "Source-backed architecture notes and process inventory.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-spence-02", "description": "Identify major subsystems and document each purpose, inputs, outputs, interactions, dependencies, and reason for separation.", "expectedOutput": "Subsystem inventory table with responsibilities, inputs, outputs, dependencies, and references.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-spence-03", "description": "Analyze evidence for modular, message-based, publish-subscribe, pipeline, and layered architectural styles.", "expectedOutput": "Evidence-based architectural-style analysis.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-spence-04", "description": "Create a labeled overall architecture diagram of the major subsystems and meaningful relationships.", "expectedOutput": "Architecture diagram in SVG or PNG format.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-spence-05", "description": "Create a dependency diagram with clear directions and a legend; keep dependencies distinct from data flow.", "expectedOutput": "Dependency diagram in SVG or PNG format with legend.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-spence-06", "description": "Write the section explaining subsystems, responsibilities, interactions, styles, dependencies, strengths, and limitations.", "expectedOutput": "Referenced 2–3 page section plus both diagrams.", "status": "Not Started", "deliverableUrl": "" }
+        { "id": "report-spence-01", "description": "Review EECS 4314 architecture concepts, the official comma.ai product overview, and Group H's presentation; establish design goals and agreed vocabulary without examining OpenPilot implementation sources.", "expectedOutput": "Course-based conceptual architecture notes and an assumptions list.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-spence-02", "description": "Define the agreed proposed subsystems, external actors, responsibilities, information inputs and outputs, interactions, dependencies, and course-based reasons for separation.", "expectedOutput": "Proposed subsystem inventory with responsibilities, information inputs and outputs, dependencies, rationale, and assumptions.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-spence-03", "description": "Evaluate modular separation, message-oriented or publish-subscribe communication, a pipeline-like driving path, feedback control, and layered responsibilities as proposed design choices; explain benefits and limitations without claiming actual implementation use.", "expectedOutput": "Course-justified architectural-style proposal.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-spence-04", "description": "Create a labeled overall architecture diagram of the proposed subsystems, external actors, and meaningful relationships; visibly identify it as Group H's proposed conceptual model.", "expectedOutput": "Proposed architecture diagram in SVG or PNG format.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-spence-05", "description": "Create a conceptual dependency diagram with clear directions, a legend, and assumptions; keep dependencies distinct from data flow.", "expectedOutput": "Proposed dependency diagram in SVG or PNG format with legend and assumptions.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-spence-06", "description": "Write the section explaining proposed subsystems, responsibilities, interactions, styles, dependencies, strengths, limitations, and assumptions; cite course concepts and product facts separately.", "expectedOutput": "Referenced 2–3 page conceptual section plus both diagrams.", "status": "Not Started", "deliverableUrl": "" }
       ]
     },
     {
       "id": "mehdi-jafarian",
       "name": "Mehdi Jafarian",
       "items": [
-        { "id": "report-mehdi-01", "description": "Study OpenPilot communication mechanisms and messages using current process, controls, planning, and process-replay sources.", "expectedOutput": "Source-backed notes on processes, messages, publishers, and subscribers.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-mehdi-02", "description": "Trace an adaptive cruise control scenario through observations, perception, planning, controls, vehicle commands, and feedback.", "expectedOutput": "Documented end-to-end data flow using actual components and messages.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-mehdi-03", "description": "Explain startup, process activation, engagement, command communication, disengagement, and unavailable-information behavior.", "expectedOutput": "Evidence-based control-flow analysis.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-mehdi-04", "description": "Analyze concurrent processes, overlapping activities, message coordination, timing value, and conceptual handling of delayed or invalid inputs.", "expectedOutput": "Concurrency analysis.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-mehdi-05", "description": "Create sequence diagram 1 for adaptive cruise control responding to a slower vehicle using verified components and communication relationships.", "expectedOutput": "Sequence diagram in SVG or PNG format.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-mehdi-06", "description": "Write the section explaining data flow, control flow, concurrency, the sequence diagram, and architectural implications.", "expectedOutput": "Referenced 2–3 page analysis and sequence diagram.", "status": "Not Started", "deliverableUrl": "" }
+        { "id": "report-mehdi-01", "description": "Use the agreed Group H model and EECS 4314 concepts to define proposed producers, consumers, and implementation-neutral information categories for observations, interpretations, plans, control requests, vehicle state, attention status, and alerts.", "expectedOutput": "Conceptual flow notes with proposed producers, consumers, information categories, and assumptions.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-mehdi-02", "description": "Trace a proposed adaptive cruise control scenario through observations, perception results, planning decisions, control requests, the vehicle boundary, and updated vehicle-state feedback using the agreed subsystem names.", "expectedOutput": "Proposed end-to-end ACC data-flow narrative.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-mehdi-03", "description": "Explain proposed startup readiness, engagement conditions, decision communication, feedback, disengagement, and handling of delayed or unavailable information.", "expectedOutput": "Proposed control-flow analysis with explicit assumptions and rationale.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-mehdi-04", "description": "Analyze which conceptual responsibilities could operate concurrently, how a proposed Messaging Layer would coordinate information, why timing matters, and how the design should react to delayed or invalid inputs.", "expectedOutput": "Conceptual concurrency proposal and timing assumptions.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-mehdi-05", "description": "Create sequence diagram 1 for adaptive cruise control responding to a slower vehicle using only proposed subsystem names and conceptual information categories; label the diagram as Group H's proposal.", "expectedOutput": "Proposed ACC sequence diagram in SVG or PNG format.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-mehdi-06", "description": "Write the section explaining proposed data flow, control flow, concurrency, the sequence diagram, architectural implications, and assumptions.", "expectedOutput": "Referenced 2–3 page conceptual analysis and sequence diagram.", "status": "Not Started", "deliverableUrl": "" }
       ]
     },
     {
       "id": "david-odidi",
       "name": "David Odidi",
       "items": [
-        { "id": "report-david-01", "description": "Study driver, vehicle, camera, sensor, communication-network, alert, and display interfaces.", "expectedOutput": "Verified list of system-boundary interactions.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-david-02", "description": "For each external interface, document the actor, incoming and outgoing information, responsible component, and use of the information.", "expectedOutput": "External-interface table.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-david-03", "description": "Analyze lane centering, adaptive cruise control, and driver monitoring with actor, preconditions, trigger, main flow, alternatives, result, and subsystems.", "expectedOutput": "Three complete written use-case descriptions.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-david-04", "description": "Create sequence or state diagram 2 for a distracted driver, using verified monitoring, self-driving, alert, and UI responsibilities and messages.", "expectedOutput": "Driver-monitoring sequence or state diagram.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-david-05", "description": "Write the section explaining external interfaces, all three use cases, and the driver-monitoring diagram.", "expectedOutput": "Referenced 2–3 page section, interface table, use cases, and diagram.", "status": "Not Started", "deliverableUrl": "" }
+        { "id": "report-david-01", "description": "Use the official comma.ai product overview only for advertised product behaviour, then use Group H's proposed model to identify conceptual boundaries with the Driver, Car, Sensors & Cameras, and User Interface; separate product facts from design assumptions.", "expectedOutput": "Proposed system-boundary inventory with facts and assumptions clearly separated.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-david-02", "description": "For each proposed external interface, document the external actor, conceptual information entering and leaving, proposed subsystem owner, intended use, and any assumptions.", "expectedOutput": "Proposed external-interface table with explicit assumptions.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-david-03", "description": "Describe lane centering, adaptive cruise control, and driver monitoring as conceptual use cases with actor, preconditions, trigger, main flow, alternatives, result, and proposed subsystems; connect advertised features to Group H's design without claiming the real implementation works this way.", "expectedOutput": "Three complete conceptual use-case descriptions.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-david-04", "description": "Create a proposed sequence or state diagram for a distracted-driver scenario using Driver Monitoring, Self-Drive Supervisor, Controls, Vehicle Interface, User Interface, Driver, and Car where relevant; label all interactions as Group H's proposal.", "expectedOutput": "Labeled proposed driver-monitoring sequence or state diagram.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-david-05", "description": "Write the conceptual external-interfaces and use-cases section, explain the distracted-driver diagram, and clearly distinguish official product facts from Group H proposals and assumptions.", "expectedOutput": "Referenced 2–3 page conceptual section, interface table, use cases, and labeled diagram.", "status": "Not Started", "deliverableUrl": "" }
       ]
     },
     {
       "id": "dan-logvinovsky",
       "name": "Dan Logvinovsky",
       "items": [
-        { "id": "report-dan-01", "description": "Review the architecture, flow, and interface work from Spence, Mehdi, and David; identify important design decisions.", "expectedOutput": "Consolidated architecture-review notes.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-dan-02", "description": "Analyze process separation, messaging, performance, reliability, maintainability, extensibility, safety boundaries, and multi-vehicle support.", "expectedOutput": "Architectural trade-off analysis with benefits, challenges, and implications.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-dan-03", "description": "Explain developer responsibility areas and the coordination needed across shared interfaces without inventing OpenPilot's team structure.", "expectedOutput": "Developer-responsibility discussion grounded in architecture.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-dan-04", "description": "Verify and document modelV2, carState, carControl, longitudinalPlan, driverMonitoringState, selfdriveState, controlsState, radarState, CAN, and panda.", "expectedOutput": "Data dictionary with Term, Type or Category, Meaning, and Used By columns.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-dan-05", "description": "Explain process names, names ending in d, module names, message names, data-structure names, and important abbreviations.", "expectedOutput": "Concise naming-convention guide.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-dan-06", "description": "Use process-replay and safety sources to explain how testing and safety mechanisms support the architecture.", "expectedOutput": "Short testing-and-reliability analysis.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-dan-07", "description": "Write lessons learned and conclusions covering strengths, limitations, research challenges, improvements, and future directions.", "expectedOutput": "Lessons-learned and conclusions section.", "status": "Not Started", "deliverableUrl": "" },
-        { "id": "report-dan-08", "description": "Collect, deduplicate, verify, and consistently format references from every member.", "expectedOutput": "Consolidated reference list.", "status": "Not Started", "deliverableUrl": "" }
+        { "id": "report-dan-01", "description": "Review the proposed architecture, flow, and interface work from Spence, Mehdi, and David; identify important design decisions, assumptions, gaps, and terminology conflicts.", "expectedOutput": "Consolidated review notes for Group H's conceptual architecture.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-dan-02", "description": "Analyze the trade-offs of the proposed modular separation, Messaging Layer, pipeline and feedback-control ideas, responsiveness, reliability, maintainability, extensibility, driver and vehicle boundaries, and support for compatible vehicles.", "expectedOutput": "Course-based trade-off analysis with benefits, challenges, assumptions, and implications.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-dan-03", "description": "Explain possible developer responsibility areas suggested by Group H's subsystem boundaries and the coordination needed across proposed interfaces; do not claim these are OpenPilot's real teams or implementation structure.", "expectedOutput": "Conceptual developer-responsibility discussion grounded in the proposed architecture.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-dan-04", "description": "Create a conceptual data dictionary for Road Observation, Driver Observation, Vehicle State, Perception Result, Desired Path, Target Speed, Control Request, Attention Status, Alert, and Engagement State, using the columns Term, Type or Category, Conceptual Meaning, and Proposed Producers or Consumers.", "expectedOutput": "Implementation-neutral conceptual data dictionary.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-dan-05", "description": "Document Group H's subsystem and information-category naming conventions so every section and diagram uses the agreed terms consistently; do not present these names as actual OpenPilot implementation names.", "expectedOutput": "Concise Group H naming-convention guide.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-dan-06", "description": "Propose architecture-level validation and reliability checks covering responsibility coverage, interface contracts, feedback, stale or missing information, inconsistent state, driver alerts, bounded control requests, and scenario walkthroughs using course concepts rather than implementation sources.", "expectedOutput": "Short conceptual validation-and-reliability plan.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-dan-07", "description": "Write lessons learned and conclusions about the strengths, limitations, unresolved assumptions, improvements, and future directions of Group H's proposed architecture; do not draw conclusions about the real implementation.", "expectedOutput": "Lessons-learned and conclusions section for the proposal.", "status": "Not Started", "deliverableUrl": "" },
+        { "id": "report-dan-08", "description": "Collect, deduplicate, verify, and consistently format references from every member; reject unsupported product claims, implementation sources, and architecture claims that are not labeled as Group H proposals or assumptions.", "expectedOutput": "Consolidated reference list and evidence-boundary check.", "status": "Not Started", "deliverableUrl": "" }
       ]
     }
   ],
@@ -76,22 +76,24 @@
   "submissionChecklist": [
     { "id": "report-submit-01", "label": "All report sections completed", "status": "Not Started" },
     { "id": "report-submit-02", "label": "Abstract and introduction completed", "status": "Not Started" },
-    { "id": "report-submit-03", "label": "Architecture documented", "status": "Not Started" },
-    { "id": "report-submit-04", "label": "Data and control flow explained", "status": "Not Started" },
-    { "id": "report-submit-05", "label": "Concurrency discussed", "status": "Not Started" },
-    { "id": "report-submit-06", "label": "Developer responsibilities explained", "status": "Not Started" },
-    { "id": "report-submit-07", "label": "Dependency diagram included", "status": "Not Started" },
-    { "id": "report-submit-08", "label": "At least two sequence or state diagrams included", "status": "Not Started" },
-    { "id": "report-submit-09", "label": "External interfaces documented", "status": "Not Started" },
-    { "id": "report-submit-10", "label": "Use cases included", "status": "Not Started" },
-    { "id": "report-submit-11", "label": "Data dictionary completed", "status": "Not Started" },
-    { "id": "report-submit-12", "label": "Naming conventions documented", "status": "Not Started" },
+    { "id": "report-submit-03", "label": "Proposed conceptual architecture documented and clearly labeled", "status": "Not Started" },
+    { "id": "report-submit-04", "label": "Proposed data and control flow explained without implementation claims", "status": "Not Started" },
+    { "id": "report-submit-05", "label": "Conceptual concurrency and timing assumptions discussed", "status": "Not Started" },
+    { "id": "report-submit-06", "label": "Possible developer responsibilities explained without claiming OpenPilot's real organization", "status": "Not Started" },
+    { "id": "report-submit-07", "label": "Proposed subsystem dependency diagram included with legend and assumptions", "status": "Not Started" },
+    { "id": "report-submit-08", "label": "At least two labeled conceptual sequence or state diagrams included", "status": "Not Started" },
+    { "id": "report-submit-09", "label": "Proposed external interfaces documented", "status": "Not Started" },
+    { "id": "report-submit-10", "label": "Conceptual use cases included", "status": "Not Started" },
+    { "id": "report-submit-11", "label": "Implementation-neutral conceptual data dictionary completed", "status": "Not Started" },
+    { "id": "report-submit-12", "label": "Group H naming conventions documented", "status": "Not Started" },
     { "id": "report-submit-13", "label": "Lessons learned and conclusions included", "status": "Not Started" },
-    { "id": "report-submit-14", "label": "References verified", "status": "Not Started" },
-    { "id": "report-submit-15", "label": "All diagrams labeled", "status": "Not Started" },
+    { "id": "report-submit-14", "label": "References verified; product facts use the official comma.ai overview only", "status": "Not Started" },
+    { "id": "report-submit-15", "label": "All architecture and interaction diagrams labeled as Group H proposals", "status": "Not Started" },
     { "id": "report-submit-16", "label": "Report formatted to 10–15 pages, single-spaced, 12-point font", "status": "Not Started" },
     { "id": "report-submit-17", "label": "PDF exported", "status": "Not Started" },
     { "id": "report-submit-18", "label": "Report published online", "status": "Not Started" },
-    { "id": "report-submit-19", "label": "Submission completed before the deadline", "status": "Not Started" }
+    { "id": "report-submit-19", "label": "Submission completed before the deadline", "status": "Not Started" },
+    { "id": "report-submit-20", "label": "No OpenPilot repository, README, source code, internal module, process, or source relationship is cited", "status": "Not Started" },
+    { "id": "report-submit-21", "label": "Official product facts are separated from Group H proposals and assumptions", "status": "Not Started" }
   ]
 }
