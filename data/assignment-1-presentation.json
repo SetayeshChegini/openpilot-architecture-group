@@ -2,14 +2,14 @@
   "assignment": "Assignment 1 – Presentation",
   "deadline": "2026-10-22T17:30:00-04:00",
   "presentationTime": "2026-10-22T18:54:00-04:00",
-  "lastUpdated": "2026-10-22",
+  "lastUpdated": "2026-10-25",
   "packageUrl": "downloads/Group_H_OpenPilot_Presentation_Package.zip",
   "members": [
     {
       "id": "setayesh-chegini",
       "name": "Setayesh Chegini",
       "items": [
-        { "id": "presentation-setayesh-01", "description": "Research OpenPilot's purpose, developer, ADAS context, problems, features, vehicle interaction, architecture value, and supervision limits.", "expectedOutput": "Verified research notes summarizing OpenPilot's purpose, functionality, and limitations.", "status": "Completed", "deliverableUrl": "" },
+        { "id": "presentation-setayesh-01", "description": "Use only the official comma.ai product overview for advertised features, general purpose, compatible-vehicle claims, driver responsibility, and product-level limitations; use EECS 4314 materials for architecture concepts; separate product facts from Group H proposals.", "expectedOutput": "Product-level notes with facts and design assumptions clearly separated.", "status": "Completed", "deliverableUrl": "" },
         { "id": "presentation-setayesh-02", "description": "Create slide 1 with the title, course, Group H, all five names, an OpenPilot introduction, and the presentation purpose.", "expectedOutput": "Completed introduction slide.", "status": "Completed", "deliverableUrl": "" },
         { "id": "presentation-setayesh-03", "description": "Create slide 2 explaining lane centering, adaptive cruise control, lane change assist, driver monitoring, and vehicle compatibility.", "expectedOutput": "Completed functionality slide with a simple feature visual.", "status": "Completed", "deliverableUrl": "" },
         { "id": "presentation-setayesh-04", "description": "Prepare clear speaking notes for slides 1–2 covering what OpenPilot does, why it is interesting, and what the presentation explains.", "expectedOutput": "Presentation-ready notes for slides 1–2.", "status": "Completed", "deliverableUrl": "" },
@@ -22,11 +22,11 @@
       "id": "spence-hashemi",
       "name": "Spence Hashemi",
       "items": [
-        { "id": "presentation-spence-01", "description": "Research the current OpenPilot architecture using the official repository, documentation, and process configuration.", "expectedOutput": "Source-backed architecture research notes.", "status": "Completed", "deliverableUrl": "" },
-        { "id": "presentation-spence-02", "description": "Identify major components and verify what they receive, produce, communicate with, and why they are separate.", "expectedOutput": "Verified component inventory covering inputs, outputs, interactions, and responsibilities.", "status": "Completed", "deliverableUrl": "" },
-        { "id": "presentation-spence-03", "description": "Analyze evidence for modular, message-based, publish-subscribe, pipeline, and layered architectural styles.", "expectedOutput": "Evidence-based architecture-style notes.", "status": "Completed", "deliverableUrl": "" },
-        { "id": "presentation-spence-04", "description": "Create slide 3 with a simple overall architecture diagram of principal subsystems and interactions.", "expectedOutput": "Completed architecture slide and readable diagram.", "status": "Completed", "deliverableUrl": "" },
-        { "id": "presentation-spence-05", "description": "Create slide 4 explaining subsystem responsibilities, interactions, organization, communication, and dependencies.", "expectedOutput": "Completed components-and-relationships slide.", "status": "Completed", "deliverableUrl": "" },
+        { "id": "presentation-spence-01", "description": "Review EECS 4314 architecture concepts, the official comma.ai product overview, and Group H's shared presentation model; establish design goals and assumptions without examining OpenPilot implementation sources.", "expectedOutput": "Course-based conceptual architecture notes and explicit assumptions.", "status": "Completed", "deliverableUrl": "" },
+        { "id": "presentation-spence-02", "description": "Define the agreed proposed subsystems, external actors, responsibilities, conceptual information inputs and outputs, interactions, and reasons for separation.", "expectedOutput": "Proposed subsystem inventory covering inputs, outputs, interactions, responsibilities, and assumptions.", "status": "Completed", "deliverableUrl": "" },
+        { "id": "presentation-spence-03", "description": "Evaluate modular separation, message-oriented or publish-subscribe communication, a pipeline-like driving path, feedback control, and layered responsibilities as proposed design choices using EECS 4314 concepts.", "expectedOutput": "Course-justified architecture-style proposal.", "status": "Completed", "deliverableUrl": "" },
+        { "id": "presentation-spence-04", "description": "Create slide 3 with a readable overall diagram of Group H's proposed subsystems, external actors, and meaningful interactions.", "expectedOutput": "Completed proposed-architecture slide and readable diagram.", "status": "Completed", "deliverableUrl": "" },
+        { "id": "presentation-spence-05", "description": "Create slide 4 explaining proposed subsystem responsibilities, interactions, organization, communication, dependencies, and assumptions.", "expectedOutput": "Completed proposed components-and-relationships slide.", "status": "Completed", "deliverableUrl": "" },
         { "id": "presentation-spence-06", "description": "Prepare speaking notes that explain the architecture from system inputs to vehicle outputs.", "expectedOutput": "Presentation-ready notes for slides 3–4.", "status": "Completed", "deliverableUrl": "" },
         { "id": "presentation-spence-07", "description": "Submit slides 3–4, the architecture diagram, references, and speaker notes for integration.", "expectedOutput": "Complete presentation package ready for team review.", "status": "Completed", "deliverableUrl": "" }
       ]
@@ -35,11 +35,11 @@
       "id": "mehdi-jafarian",
       "name": "Mehdi Jafarian",
       "items": [
-        { "id": "presentation-mehdi-01", "description": "Research how sensor and perception information is used to produce driving-related control decisions.", "expectedOutput": "Verified driving-pipeline research notes.", "status": "Completed", "deliverableUrl": "" },
-        { "id": "presentation-mehdi-02", "description": "Trace an adaptive cruise control scenario from road observations through planning, controls, vehicle commands, and feedback.", "expectedOutput": "Documented scenario with relevant components and messages.", "status": "Completed", "deliverableUrl": "" },
-        { "id": "presentation-mehdi-03", "description": "Explain concurrent processes, message movement, the value of concurrency, and timing considerations.", "expectedOutput": "Concise concurrency analysis for the presentation.", "status": "Completed", "deliverableUrl": "" },
+        { "id": "presentation-mehdi-01", "description": "Use Group H's agreed model and EECS 4314 concepts to define conceptual observations, perception results, plans, control requests, vehicle-state feedback, attention status, and alerts without implementation messages or process names.", "expectedOutput": "Proposed driving-flow notes with information categories and assumptions.", "status": "Completed", "deliverableUrl": "" },
+        { "id": "presentation-mehdi-02", "description": "Trace a proposed adaptive cruise control scenario from road observations through Perception, Planning, Controls, Vehicle Interface, Car, and vehicle-state feedback.", "expectedOutput": "Proposed end-to-end ACC scenario using conceptual information categories.", "status": "Completed", "deliverableUrl": "" },
+        { "id": "presentation-mehdi-03", "description": "Explain which proposed responsibilities could operate concurrently, how a proposed Messaging Layer could coordinate information, why timing matters, and how delayed or invalid inputs should be handled.", "expectedOutput": "Concise concurrency proposal and timing assumptions.", "status": "Completed", "deliverableUrl": "" },
         { "id": "presentation-mehdi-04", "description": "Create slide 5 with a clear data-flow diagram and distinguish data flow from control flow.", "expectedOutput": "Completed data-flow slide and diagram.", "status": "Completed", "deliverableUrl": "" },
-        { "id": "presentation-mehdi-05", "description": "Create slide 6 with an adaptive-cruise-control sequence diagram using supported publish-subscribe interactions.", "expectedOutput": "Completed sequence-diagram slide.", "status": "Completed", "deliverableUrl": "" },
+        { "id": "presentation-mehdi-05", "description": "Create slide 6 with a proposed adaptive-cruise-control sequence diagram using agreed subsystem names and conceptual information categories.", "expectedOutput": "Completed proposed sequence-diagram slide.", "status": "Completed", "deliverableUrl": "" },
         { "id": "presentation-mehdi-06", "description": "Prepare speaking notes explaining the sequence from initial observation to control response.", "expectedOutput": "Presentation-ready notes for slides 5–6.", "status": "Completed", "deliverableUrl": "" },
         { "id": "presentation-mehdi-07", "description": "Submit slides, data-flow explanation, sequence diagram, concurrency explanation, references, and notes.", "expectedOutput": "Complete presentation package ready for team review.", "status": "Completed", "deliverableUrl": "" }
       ]
@@ -48,10 +48,10 @@
       "id": "david-odidi",
       "name": "David Odidi",
       "items": [
-        { "id": "presentation-david-01", "description": "Research OpenPilot's driver, vehicle, camera, sensor, display, alert, and driver-monitoring interfaces.", "expectedOutput": "Verified external-interface research notes.", "status": "Completed", "deliverableUrl": "" },
-        { "id": "presentation-david-02", "description": "Research lane centering, adaptive cruise control, and driver monitoring, including the subsystems each use case depends on.", "expectedOutput": "Three concise, source-backed use-case analyses.", "status": "Completed", "deliverableUrl": "" },
-        { "id": "presentation-david-03", "description": "Create slide 7 explaining external inputs, outputs, actors, devices, and communication boundaries.", "expectedOutput": "Completed external-interfaces slide with a diagram or compact table.", "status": "Completed", "deliverableUrl": "" },
-        { "id": "presentation-david-04", "description": "Create slide 8 with a verified driver-distraction sequence or state diagram from camera input through continued-inattention response.", "expectedOutput": "Completed driver-monitoring sequence or state-diagram slide.", "status": "Completed", "deliverableUrl": "" },
+        { "id": "presentation-david-01", "description": "Use the official comma.ai overview only for advertised product behavior, then use Group H's proposed model to define conceptual boundaries with Driver, Car, Sensors & Cameras, and User Interface; separate product facts from assumptions.", "expectedOutput": "Proposed interface notes with facts and assumptions clearly separated.", "status": "Completed", "deliverableUrl": "" },
+        { "id": "presentation-david-02", "description": "Describe lane centering, adaptive cruise control, and driver monitoring as conceptual use cases, identifying proposed participating subsystems and assumptions.", "expectedOutput": "Three concise conceptual use-case analyses and proposed subsystem mappings.", "status": "Completed", "deliverableUrl": "" },
+        { "id": "presentation-david-03", "description": "Create slide 7 explaining proposed external inputs, outputs, actors, devices, communication boundaries, and assumptions.", "expectedOutput": "Completed proposed external-interfaces slide with a diagram or compact table.", "status": "Completed", "deliverableUrl": "" },
+        { "id": "presentation-david-04", "description": "Create slide 8 with a proposed driver-distraction sequence or state diagram using the agreed conceptual subsystems and clearly labeled escalation assumptions.", "expectedOutput": "Completed proposed driver-monitoring sequence or state-diagram slide.", "status": "Completed", "deliverableUrl": "" },
         { "id": "presentation-david-05", "description": "Prepare speaking notes explaining how the selected use case demonstrates component interaction.", "expectedOutput": "Presentation-ready notes for slides 7–8.", "status": "Completed", "deliverableUrl": "" },
         { "id": "presentation-david-06", "description": "Submit slides, interface explanation, driver-monitoring diagram, references, and notes.", "expectedOutput": "Complete presentation package ready for team review.", "status": "Completed", "deliverableUrl": "" }
       ]
@@ -61,10 +61,10 @@
       "name": "Dan Logvinovsky",
       "items": [
         { "id": "presentation-dan-01", "description": "Review the major components and diagrams prepared by Spence, Mehdi, and David.", "expectedOutput": "Consolidated architecture-review notes.", "status": "Completed", "deliverableUrl": "" },
-        { "id": "presentation-dan-02", "description": "Investigate process separation, modularity, messaging, performance, reliability, compatibility, extensibility, and maintainability trade-offs.", "expectedOutput": "Source-backed architectural decision and trade-off analysis.", "status": "Completed", "deliverableUrl": "" },
-        { "id": "presentation-dan-07", "description": "Preserve slide 9 as the complete evidence and references page, including the version and source-snapshot explanation.", "expectedOutput": "Complete evidence page with a short speaking script.", "status": "Completed", "deliverableUrl": "" },
-        { "id": "presentation-dan-03", "description": "Create slide 10 with a decision, benefit, and challenge table supported by official resources.", "expectedOutput": "Completed design-trade-offs slide.", "status": "Completed", "deliverableUrl": "" },
-        { "id": "presentation-dan-04", "description": "Create slide 11 explaining the main findings, strengths, limitations, and lessons learned.", "expectedOutput": "Completed conclusions slide.", "status": "Completed", "deliverableUrl": "" },
+        { "id": "presentation-dan-02", "description": "Analyze the benefits and limitations of Group H's proposed subsystem separation, Messaging Layer, pipeline and feedback ideas, responsiveness, reliability, compatible-vehicle boundary, extensibility, and maintainability using EECS 4314 concepts.", "expectedOutput": "Conceptual architectural decision and trade-off analysis.", "status": "Completed", "deliverableUrl": "" },
+        { "id": "presentation-dan-07", "description": "Preserve slide 9 as the complete references page and clearly distinguish the official comma.ai product overview, EECS 4314 course theory, Group H naming conventions, and proposed architecture assumptions.", "expectedOutput": "Complete references page with a short speaking script.", "status": "Completed", "deliverableUrl": "" },
+        { "id": "presentation-dan-03", "description": "Create slide 10 with a proposed decision, benefit, and challenge table supported by course concepts and explicit assumptions.", "expectedOutput": "Completed design-trade-offs slide.", "status": "Completed", "deliverableUrl": "" },
+        { "id": "presentation-dan-04", "description": "Create slide 11 explaining the proposed model's intended strengths, limitations, unresolved assumptions, and lessons learned without making claims about OpenPilot's real implementation.", "expectedOutput": "Completed conclusions slide.", "status": "Completed", "deliverableUrl": "" },
         { "id": "presentation-dan-05", "description": "Prepare speaking notes for the evidence page, trade-offs, and conclusion while connecting them to the preceding architecture slides.", "expectedOutput": "Presentation-ready notes for slides 9–11.", "status": "Completed", "deliverableUrl": "" },
         { "id": "presentation-dan-06", "description": "Submit slides 9–11, trade-off analysis, conclusions, references, and notes.", "expectedOutput": "Complete presentation package ready for team review.", "status": "Completed", "deliverableUrl": "" }
       ]
@@ -82,10 +82,10 @@
     { "id": "presentation-submit-01", "label": "All members' slides collected", "status": "Completed" },
     { "id": "presentation-submit-02", "label": "Architecture diagram included", "status": "Completed" },
     { "id": "presentation-submit-03", "label": "Sequence diagrams included where assigned", "status": "Completed" },
-    { "id": "presentation-submit-04", "label": "Slide content verified", "status": "Completed" },
+    { "id": "presentation-submit-04", "label": "Product facts and Group H proposals clearly separated", "status": "Completed" },
     { "id": "presentation-submit-05", "label": "Speaking notes prepared", "status": "Completed" },
     { "id": "presentation-submit-06", "label": "Presentation rehearsed", "status": "Completed" },
-    { "id": "presentation-submit-07", "label": "Evidence and references page included and verified", "status": "Completed" },
+    { "id": "presentation-submit-07", "label": "References page included with no OpenPilot implementation sources", "status": "Completed" },
     { "id": "presentation-submit-08", "label": "PDF exported", "status": "Completed" },
     { "id": "presentation-submit-09", "label": "PDF verified", "status": "Completed" },
     { "id": "presentation-submit-10", "label": "Submission completed before the deadline", "status": "Completed" }
