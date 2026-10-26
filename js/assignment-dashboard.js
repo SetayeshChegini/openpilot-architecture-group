@@ -308,6 +308,18 @@
       const response = await fetch(source, { cache: "no-store" });
       if (!response.ok) throw new Error(`Task catalog request failed: ${response.status}`);
       const data = await response.json();
+      const finalized = document.body.dataset.assignmentFinalized === "true";
+      if (finalized) {
+        data.members?.forEach((member) => member.items?.forEach((item) => {
+          item.status = "Completed";
+        }));
+        data.checkpoints?.forEach((item) => {
+          item.status = "Completed";
+        });
+        data.submissionChecklist?.forEach((item) => {
+          item.status = "Completed";
+        });
+      }
       const packageUrl = typeof data.packageUrl === "string" ? data.packageUrl.trim() : "";
       if (packageUrl) {
         data.members?.forEach((member) => member.items?.forEach((item) => {
@@ -318,6 +330,19 @@
       }
       renderStatusCollection(document.querySelector("[data-checkpoint-list]"), Array.isArray(data.checkpoints) ? data.checkpoints : [], "checkpoint-item");
       renderStatusCollection(document.querySelector("[data-submission-checklist]"), Array.isArray(data.submissionChecklist) ? data.submissionChecklist : [], "submission-check-item");
+
+      if (finalized) {
+        renderDashboard({
+          members: Array.isArray(data.members) ? data.members : [],
+          user: null,
+          profile: null,
+          configured: false,
+          busyTaskId: null
+        });
+        const authPanel = document.querySelector("[data-auth-panel]");
+        if (authPanel) authPanel.hidden = true;
+        return;
+      }
 
       if (!window.GroupHProgress?.createStore) throw new Error("The shared progress client did not load.");
       progressStore = window.GroupHProgress.createStore({
