@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
     <script src="js/supabase-config.js" defer></script>
     <script src="js/shared-progress.js" defer></script>
-    <script src="js/home-progress.js" defer></script>
+    <script src="js/home-progress.js?v=20261026-1" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -38,7 +38,7 @@
           <h1 id="page-title">Group H</h1>
           <p class="hero-subtitle">OpenPilot Architecture Group</p>
           <p class="hero-focus">Software Architecture &amp; Design Analysis of OpenPilot</p>
-          <p class="hero-description">This website organizes Group H's proposed conceptual software architecture for OpenPilot's advertised driver-assistance functions. It provides separate Assignment 1 workspaces for the class presentation and written report, along with the team roster, approved resources, and future project publications.</p>
+          <p class="hero-description">This website presents Group H's completed Assignment 1 work on a proposed conceptual software architecture for OpenPilot's advertised driver-assistance functions. It includes the class presentation workspace, the final written report, the team roster, and approved resources.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#assignments">Open Assignment 1</a>
             <a class="button button-secondary" href="#team">View the team</a>
@@ -46,13 +46,13 @@
         </div>
 
         <aside class="milestone-card" aria-label="Current project milestone">
-          <p class="card-kicker">Current milestone</p>
+          <p class="card-kicker">Completed milestone</p>
           <h2>Assignment 1</h2>
           <p>Presentation + Architecture Report</p>
           <dl class="milestone-details">
-            <div><dt>Next due</dt><dd><time datetime="2026-10-22T17:30:00-04:00">Presentation<br>October 22 at 5:30 PM</time></dd></div>
-            <div><dt>Report due</dt><dd><time datetime="2026-10-25T23:59:00-04:00">October 25, 2026<br>at 11:59 PM</time></dd></div>
-            <div><dt>Status</dt><dd><span class="status-badge status-in-progress">In Progress</span></dd></div>
+            <div><dt>Presentation</dt><dd>Completed<br><time datetime="2026-10-22T17:30:00-04:00">October 22, 2026</time></dd></div>
+            <div><dt>Report</dt><dd>Completed<br><time datetime="2026-10-25T23:59:00-04:00">October 25, 2026</time></dd></div>
+            <div><dt>Status</dt><dd><span class="status-badge status-completed">Completed</span></dd></div>
           </dl>
         </aside>
       </section>
@@ -78,7 +78,7 @@
         </div>
         <div class="assignment-focus-grid">
           <article class="assignment-card assignment-focus-card">
-            <div class="assignment-topline"><span>Assignment 1</span><span class="status-badge status-not-started">Presentation</span></div>
+            <div class="assignment-topline"><span>Assignment 1 · Presentation</span><span class="status-badge status-completed">Completed</span></div>
             <h3>Presentation Tasks &amp; Responsibilities</h3>
             <p class="assignment-deadline"><strong>Due:</strong> <time datetime="2026-10-22T17:30:00-04:00">Thursday, October 22, 2026 at 5:30 PM</time></p>
             <p>Prepare a class presentation explaining OpenPilot's conceptual software architecture. Group H presents at <strong>6:54 PM</strong>.</p>
@@ -86,12 +86,13 @@
             <a class="assignment-link" href="assignment-1-presentation.html">Open the presentation workspace</a>
           </article>
           <article class="assignment-card assignment-focus-card">
-            <div class="assignment-topline"><span>Assignment 1</span><span class="status-badge status-not-started">Report</span></div>
+            <div class="assignment-topline"><span>Assignment 1 · Report</span><span class="status-badge status-completed">Completed</span></div>
             <h3>Report Tasks &amp; Responsibilities</h3>
             <p class="assignment-deadline"><strong>Due:</strong> <time datetime="2026-10-25T23:59:00-04:00">Sunday, October 25, 2026 at 11:59 PM</time></p>
             <p>Create a 10–15 page conceptual software architecture report and publish the final report on the Group H website.</p>
-            <div class="card-progress-row"><span data-home-progress="report">0 of 31 · 0% complete</span><div class="mini-progress" role="progressbar" aria-label="Report task completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span data-home-progress-bar="report"></span></div><small data-home-sync="report">Checking shared progress…</small></div>
+            <div class="card-progress-row"><span class="is-complete" data-home-progress="report">Completed – All Tasks Finished</span><div class="mini-progress is-complete" role="progressbar" aria-label="Report task completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><span data-home-progress-bar="report" style="width: 100%"></span></div><small class="is-live" data-home-sync="report">Completed</small></div>
             <a class="assignment-link" href="assignment-1-report.html">Open the report workspace</a>
+            <a class="assignment-link" href="reports/Assignment1_GroupH_report.pdf">Download the final report PDF</a>
           </article>
         </div>
         <p class="assignment-history"><strong>Completed:</strong> Assignment 0 — Group List + Website Link, due October 4, 2026 at 11:59 PM.</p>
@@ -100,7 +101,7 @@
       <section class="section section-dark" id="architecture" aria-labelledby="architecture-title">
         <div class="report-layout">
           <div><p class="eyebrow">Semester deliverable</p><h2 id="architecture-title">Architecture Report</h2></div>
-          <p>Group H is proposing a high-level conceptual architecture for OpenPilot's advertised functions using EECS 4314 course concepts. The design covers subsystems, interactions, data and control flow, concurrency, interfaces, use cases, dependencies, decisions, and trade-offs without claiming to document OpenPilot's real implementation.</p>
+          <p>Group H completed a high-level conceptual architecture for OpenPilot's advertised functions using EECS 4314 course concepts. The final report covers subsystems, interactions, data and control flow, concurrency, interfaces, use cases, dependencies, decisions, and trade-offs without claiming to document OpenPilot's real implementation.</p>
         </div>
       </section>
 
@@ -114,6 +115,7 @@
             <a href="https://comma.ai/openpilot" target="_blank" rel="noopener noreferrer"><span><strong>Official comma.ai OpenPilot Overview</strong><small>Advertised features, general purpose, and driver responsibility only</small></span><span aria-hidden="true">↗</span></a>
             <a href="assignment-1-presentation.html"><span><strong>Group H Presentation Workspace</strong><small>Completed conceptual presentation tasks and references</small></span><span aria-hidden="true">→</span></a>
             <a href="assignment-1-report.html"><span><strong>Group H Report Workspace</strong><small>Proposed architecture tasks, assumptions, and evidence boundary</small></span><span aria-hidden="true">→</span></a>
+            <a href="reports/Assignment1_GroupH_report.pdf"><span><strong>Final Assignment 1 Report (PDF)</strong><small>Completed Group H architecture report</small></span><span aria-hidden="true">↓</span></a>
             <a href="https://app.diagrams.net/" target="_blank" rel="noopener noreferrer"><span><strong>diagrams.net</strong><small>Architecture, dependency, and sequence diagrams</small></span><span aria-hidden="true">↗</span></a>
             <a href="https://mermaid.js.org/" target="_blank" rel="noopener noreferrer"><span><strong>Mermaid</strong><small>Version-controlled diagrams from text</small></span><span aria-hidden="true">↗</span></a>
             <a href="https://www.zotero.org/" target="_blank" rel="noopener noreferrer"><span><strong>Zotero</strong><small>Reference collection and citation management</small></span><span aria-hidden="true">↗</span></a>
